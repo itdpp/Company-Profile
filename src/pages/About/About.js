@@ -1,10 +1,14 @@
 import React from 'react'
-// import "src/assets/About/about.css"
+import "./about.css"
+import GambarAbout from "../../assets/About/gambar.jpg"
 
 
 const About = () => {
   return (
-    <div className='head'>About</div>
+    <div className='container'>
+      <img className='image' src={GambarAbout} alt='Gambar'/>
+      <h1 className='text'>About Us</h1>
+    </div>
   )
 }
 

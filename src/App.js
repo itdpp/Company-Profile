@@ -1,20 +1,25 @@
 // import logo from './logo.svg';
-import './App.css';
-import { BrowserRouter as Router , Routes, Route } from 'react-router-dom';
-import { Products } from './pages/Products/Products'; 
-import About from './pages/Abouts/About';
-import { Navbar } from './components/Elements/Navbar';
+import "./App.css";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Products } from "./pages/Products/Products";
+import About from "./pages/About/About";
+import { Navbar } from "./components/Elements/Navbar";
+import { Footer } from "./components/Elements/Footer";
+import  AboutValues  from "./pages/About/Values/AboutValues"
 
 function App() {
   return (
     <>
-    <Navbar/>
-   <Router>
-    <Routes>
-      <Route path='/' element={<About/>} />
-      <Route path='/Product' element={<Products/>} />
-    </Routes>
-   </Router>
+    <Navbar />
+      <Router>
+        <Routes>
+          <Route path="/" element={<About />} />
+          <Route path="/Product" element={<Products />} />
+          <Route path="/Values" element={<AboutValues />} />
+          
+        </Routes>
+      </Router>
+    <Footer/>
     </>
   );
 }

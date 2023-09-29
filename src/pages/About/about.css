@@ -1,0 +1,21 @@
+.container {
+    position: relative;
+    z-index: -999;
+    text-align: center;
+    color: white;
+}
+
+.image {
+    width: 100%; /* Sesuaikan dengan lebar gambar */
+    height: 100px;
+    height: auto; /* Biarkan tingginya menyesuaikan */
+}
+
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px; /* Sesuaikan ukuran teks */
+}
+

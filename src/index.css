@@ -61,6 +61,7 @@ code {
 
 .dropdown:hover .dropdown-content {
   display: block;
+  width: 200px;
 }
 
 .dropdown-content a {

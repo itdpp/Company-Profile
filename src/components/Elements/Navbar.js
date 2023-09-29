@@ -1,6 +1,9 @@
 import React from "react";
+// import { useNavigate } from "react-router-dom";
+
 
 export const Navbar = () => {
+  // const navigate = useNavigate()
   return (
     <>
       <nav className="navbar-top">
@@ -14,9 +17,15 @@ export const Navbar = () => {
           <span>Logo</span>
         </div>
         <ul className="navbar-links">
-          {/* <li><a href='#'>Home</a></li> */}
-          <li>
-            <a href="#">About</a>
+          <li className="dropdown">
+            <a href="/">About</a>
+            <div className="dropdown-content">
+              <a href="/Values">Values</a>
+              <a href="#">Vision & Mission</a>
+              <a href="#">Tagline</a>
+              <a href="#">Milestone & Awards</a>
+              <a href="#">Board of director</a>
+            </div>
           </li>
           <li className="dropdown">
             <a href="#">Products</a>

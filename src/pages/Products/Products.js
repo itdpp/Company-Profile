@@ -1,7 +1,9 @@
 import React from 'react'
 
+
 export const Products = () => {
   return (
+    <>
     <main className='inti'>
       <h2>Product</h2>
       <div className='gambar1'>
@@ -14,6 +16,8 @@ export const Products = () => {
         <img src='https://www.uniquip.co.id/wp-content/uploads/2023/04/Logo-Principles-1024x186.jpg'></img>
       </div>
     </main>
+    </>
+    
   )
 }
 

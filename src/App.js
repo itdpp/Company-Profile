@@ -6,6 +6,7 @@ import About from "./pages/About/About";
 import { Navbar } from "./components/Elements/Navbar";
 import { Footer } from "./components/Elements/Footer";
 import { ProductScania } from "./pages/Products/Scania/ProductScania";
+import { TypeScania } from "./pages/Products/Scania/TypeScania";
 import { DetailScania } from "./pages/Products/Scania/DetailScania";
 import AboutValues from "./pages/About/Values/AboutValues";
 import Board from "./pages/About/BoardOfDirector/Boards"
@@ -30,6 +31,7 @@ function App() {
           <Route path="/vision" element={<VisionMissions />}/>
           <Route path="/detailscania" element={<DetailScania />}/>
           <Route path="/productscania" element={<ProductScania />}/>
+          <Route path="/typescania" element={<TypeScania />}/>
         </Routes>
       </Router>
     <Footer/>

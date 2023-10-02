@@ -59,7 +59,7 @@
 }
 
 .product .gambar-logo img {
-  width: 34%;
+  width: 30%;
   margin-bottom: 10%;
 }
 
@@ -77,17 +77,18 @@
 
 .product .wrap-product .card-product {
   /* text-align: center; */
+  width: 30%; 
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .product .wrap-product .card-product .wrap-img {
-  /* width:50%; */
+  /* width:100%; */
   width: 300px;
   padding: 0 10%;
   height: auto;
-  margin:20px;
+  /* margin-bottom:20px; */
   /* border: 1px solid #cccaca; */
   transition: transform 0.4s ease;
   /* background-color: black;
@@ -111,12 +112,102 @@
   font-weight: 300;
   font-style: italic;
   text-transform: uppercase;
+  margin-bottom: 8%;
+}
+
+
+/* Type Product  */
+
+.type-product {
+  text-align: center;
+  padding: 0 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.type-product .type-judul-product {
+  text-align: left;
+  font-size: 40px;
+  font-weight: 500;
+  width: 100%;
+}
+
+.type-product .gambar-logo {
+  /* background: blue; */
+}
+
+.type-product .gambar-logo img {
+  width: 30%;
+  margin-bottom: 4%;
+}
+
+.type-product .type-article-product{
+  width: 56%;
+  height: auto;
+  margin-bottom: 2%;
+  /* text-align: justify; */
+}
+.type-product .type-article-product p{
+  width: 100%;
+}
+
+.type-product .type-name-product{
+  margin: 2% 0;
+  text-transform: uppercase;
+}
+.type-product .type-name-product h3{
+  font-size: 24px;
+  font-weight: 600;
+  color: #214896;
+}
+
+.type-product .type-wrap-product {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.type-product .type-wrap-product .card-product {
+  /* text-align: center; */
+  width: 20%; 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px;
+}
+
+.type-product .type-wrap-product .card-product .wrap-img {
+  width:100%;
+  padding: 0 10%;
+  height: auto;
+  /* margin-bottom:20px; */
+  /* border: 1px solid #cccaca; */
+  transition: transform 0.4s ease;
+  /* background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;  */
+}
+
+.type-product .type-wrap-product .card-product .wrap-img img {
+  max-width: 100%;
+  border: 1px solid #cccaca;
+}
+
+.type-product .type-wrap-product .card-product:hover .wrap-img {
+  transform: translateY(-20px);
+}
+
+.type-product .type-wrap-product .card-product h3 {
+  margin-top: 0;
+  font-size: 18px;
+  font-weight: 300;
+  font-style: italic;
+  text-transform: uppercase;
+  margin-bottom: 8%;
 }
 
 /* Detail Product  */
-
-.product .article-product{
-  /* background: #000; */
-  /* width:50%;d:\DPP\CompanyProfile */
-  height: 300px;
-}

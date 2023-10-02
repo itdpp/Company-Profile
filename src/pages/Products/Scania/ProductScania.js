@@ -12,36 +12,18 @@ export const ProductScania = () => {
       </div>
       <div className='wrap-product'>
         <div className='card-product'>
-          <div className='wrap-img' onClick={()=>navigate('/detailscania')}>
+          <div className='wrap-img' onClick={()=>navigate('/typescania')}>
             <img src='https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png' alt='Exca'/>
           </div>
             <h3 className='nama-product'>Dump Truck</h3>
         </div>
         <div className='card-product'>
-          <div className='wrap-img' onClick={()=>navigate('/detailscania')}>
+          <div className='wrap-img' onClick={()=>navigate('/typescania')}>
             <img src='https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png' alt='Exca'/>
           </div>
             <h3 className='nama-product'>Dump Truck</h3>
         </div>
-        <div className='card-product' onClick={()=>navigate('/detailscania')}>
-          <div className='wrap-img'>
-            <img src='https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png' alt='Exca'/>
-          </div>
-            <h3 className='nama-product'>Dump Truck</h3>
-        </div>
-        <div className='card-product' onClick={()=>navigate('/detailscania')}>
-          <div className='wrap-img'>
-            <img src='https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png' alt='Exca'/>
-          </div>
-            <h3 className='nama-product'>Dump Truck</h3>
-        </div>
-        <div className='card-product' onClick={()=>navigate('/detailscania')}>
-          <div className='wrap-img'>
-            <img src='https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png' alt='Exca'/>
-          </div>
-            <h3 className='nama-product'>Dump Truck</h3>
-        </div>
-        <div className='card-product' onClick={()=>navigate('/detailscania')}>
+        <div className='card-product' onClick={()=>navigate('/typescania')}>
           <div className='wrap-img'>
             <img src='https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png' alt='Exca'/>
           </div>

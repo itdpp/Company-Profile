@@ -6,6 +6,12 @@ import About from "./pages/About/About";
 import { Navbar } from "./components/Elements/Navbar";
 import { Footer } from "./components/Elements/Footer";
 import  AboutValues  from "./pages/About/Values/AboutValues"
+import Board from "./pages/About/BoardOfDirector/Boards"
+import MilestoneAward from "./pages/About/MilestoneAwards/MilestoneAward";
+import Taglines from "./pages/About/Tagline/Taglines";
+import VisionMissions from "./pages/About/VisionMissions/VisionMission";
+import {DetailScania} from "./pages/Products/Scania/DetailScania";
+import {ProductScania} from "./pages/Products/Scania/ProductScania";
 
 function App() {
   return (
@@ -14,9 +20,14 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<About />} />
-          <Route path="/Product" element={<Products />} />
-          <Route path="/Values" element={<AboutValues />} />
-          
+          <Route path="/product" element={<Products />} />
+          <Route path="/values" element={<AboutValues />} />
+          <Route path="/board" element={<Board />}/>
+          <Route path="/awards" element={<MilestoneAward />}/>
+          <Route path="/tagline" element={<Taglines />}/>
+          <Route path="/vision" element={<VisionMissions />}/>
+          <Route path="/detailscania" element={<DetailScania />}/>
+          <Route path="/productscania" element={<ProductScania />}/>
         </Routes>
       </Router>
     <Footer/>

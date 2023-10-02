@@ -8,11 +8,15 @@ import { Footer } from "./components/Elements/Footer";
 import { ProductScania } from "./pages/Products/Scania/ProductScania";
 import { DetailScania } from "./pages/Products/Scania/DetailScania";
 import AboutValues from "./pages/About/Values/AboutValues";
+import Board from "./pages/About/BoardOfDirector/Boards"
+import MilestoneAward from "./pages/About/MilestoneAwards/MilestoneAward";
+import Taglines from "./pages/About/Tagline/Taglines";
+import VisionMissions from "./pages/About/VisionMissions/VisionMission";
 
 function App() {
   return (
     <>
-      <Navbar />
+    <Navbar />
       <Router>
         <Routes>
           <Route path="/" element={<About />} />
@@ -20,9 +24,15 @@ function App() {
           <Route path="/productscania" element={<ProductScania/>} />
           <Route path="/detailscania" element={<DetailScania/>} />
           <Route path="/Values" element={<AboutValues/>}/>
+          <Route path="/board" element={<Board />}/>
+          <Route path="/awards" element={<MilestoneAward />}/>
+          <Route path="/tagline" element={<Taglines />}/>
+          <Route path="/vision" element={<VisionMissions />}/>
+          <Route path="/detailscania" element={<DetailScania />}/>
+          <Route path="/productscania" element={<ProductScania />}/>
         </Routes>
       </Router>
-      <Footer/>
+    <Footer/>
     </>
   );
 }

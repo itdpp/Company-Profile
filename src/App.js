@@ -3,8 +3,8 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Products } from "./pages/Products/Products";
 import About from "./pages/About/About";
-import { Navbar } from "./components/Elements/Navbar";
-import { Footer } from "./components/Elements/Footer";
+import { Navbar } from "./components/Elements/Nav/Navbar";
+import { Footer } from "./components/Elements/Foot/Footer";
 import  AboutValues  from "./pages/About/Values/AboutValues"
 import Board from "./pages/About/BoardOfDirector/Boards"
 import MilestoneAward from "./pages/About/MilestoneAwards/MilestoneAward";

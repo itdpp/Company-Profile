@@ -1,5 +1,5 @@
 import React from "react";
-import './style.css'
+import '../Nav/navbar.css'
 
 export const Navbar = () => {
   // const navigate = useNavigate()
@@ -13,17 +13,16 @@ export const Navbar = () => {
       </nav>
       <nav className="navbar-bottom">
         <div className="navbar-logo">
-          {/* <span>Logo</span> */}
         </div>
         <ul className="navbar-links">
           <li className="dropdown">
             <a href="/">About</a>
             <div className="dropdown-content">
-              <a href="/Values">Values</a>
-              <a href="#">Vision & Mission</a>
-              <a href="#">Tagline</a>
-              <a href="#">Milestone & Awards</a>
-              <a href="#">Board of director</a>
+              <a href="/values">Values</a>
+              <a href="/vision">Vision & Mission</a>
+              <a href="tagline">Tagline</a>
+              <a href="awards">Milestone & Awards</a>
+              <a href="board">Board of director</a>
             </div>
           </li>
           <li className="dropdown">

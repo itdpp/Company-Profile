@@ -66,6 +66,7 @@
 .product .wrap-product {
   text-align: center;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
   /* background: #000;
     max-width: 100%;

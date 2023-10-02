@@ -7,6 +7,7 @@ import { Navbar } from "./components/Elements/Navbar";
 import { Footer } from "./components/Elements/Footer";
 import { ProductScania } from "./pages/Products/Scania/ProductScania";
 import { DetailScania } from "./pages/Products/Scania/DetailScania";
+import AboutValues from "./pages/About/Values/AboutValues";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
           <Route path="/product" element={<Products />} />
           <Route path="/productscania" element={<ProductScania/>} />
           <Route path="/detailscania" element={<DetailScania/>} />
+          <Route path="/Values" element={<AboutValues/>}/>
         </Routes>
       </Router>
       <Footer/>

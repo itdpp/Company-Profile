@@ -3,43 +3,91 @@
   padding: 0;
 }
 
-.inti {
+
+/* ====== HOME PRODUCT ====== */
+
+.home-product {
   text-align: center;
-  padding: 0 10%;
+  /* padding: 0 10%; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-.inti h2 {
+.home-judul-product {
   text-align: left;
   font-size: 40px;
-  font-weight: 400;
+  font-weight: 500;
+  width: 70%;
+  padding: 1% 0;
+  text-transform: uppercase;
+  /* padding: 1%; */
+  /* padding-left: 25%; */
 }
 
-.inti .gambar1 {
-  width: 120%;
-  margin-left: -10%;
-}
-
-.inti .gambar1 img {
+.home-product .home-background {
+  position: relative;
   width: 100%;
-  height: 400px;
-  padding: 0;
+  height: 60vh;
+  overflow: hidden;
+  z-index: -999;
 }
 
-.inti .text-product {
-  margin-top: 5%;
+.home-product .home-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.home-product .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.home-product .content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
   text-align: center;
-  padding: 0 10%;
+  z-index: 1;
+  text-transform: uppercase;
 }
 
-.inti .text-product p {
-  font-size: 22px;
-  font-weight: 400;
-  padding: 0 10%;
+.home-product .content h1 {
+  font-size: 3em;
+  font-weight: 550;
 }
 
-.inti .gambar2 img {
-  width: 60%;
+.home-product .home-article-product {
+  width: 50%;
+  height: auto;
+  margin-bottom: 2%;
+  margin-top: 4%;
+  /* text-align: justify; */
 }
+.home-product .home-article-product p {
+  width: 100%;
+  font-size: 24px;
+  font-weight: 360;
+  color: #3a3939;
+}
+
+.home-product .logo-logo{
+  width: 100%;
+}
+.home-product .logo-logo img{
+  width: 40%;
+}
+
 
 /* Jenis Product  */
 
@@ -84,16 +132,20 @@
 }
 
 .product .wrap-product .card-product .wrap-img {
-  /* width:100%; */
-  width: 300px;
+  width:100%;
+  /* width: 300px; */
   padding: 0 10%;
   height: auto;
   transition: transform 0.4s ease;
 }
 
 .product .wrap-product .card-product .wrap-img img {
-  max-width: 100%;
+  /* max-width: 100%; */
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
   border: 1px solid #cccaca;
+
 }
 
 .product .wrap-product .card-product:hover .wrap-img {
@@ -183,8 +235,7 @@
   width: 100%;
   height: 100%;
   border: 1px solid #cccaca;
-  /* background-size: cover;
-  background-position: center */
+  object-fit: cover;
 }
 
 .type-product .type-wrap-product .card-product:hover .wrap-img {
@@ -214,8 +265,10 @@
   text-align: left;
   font-size: 40px;
   font-weight: 500;
-  width: 100%;
+  /* width: 100%; */
   text-transform: uppercase;
+  padding: 1%;
+  margin-left: -60%;
 }
 
 .detail-product .detail-background {
@@ -268,13 +321,16 @@
 }
 
 .detail-gambar {
-  width: 130%;
+  width: 100%;
+  height: 100%;
+  /* background: #000; */
 }
 
 .detail-gambar img {
   border: 1px solid #cccaca;
-  width: 100%;
-  height: auto;
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
 }
 
 .detail-text h2 {
@@ -292,6 +348,7 @@
 
 .detail-text ul li {
   margin: 10px 10px;
+  list-style-type:disc
 }
 
 .detail-table {
@@ -319,13 +376,13 @@ td {
 }
 
 tr.col-1 {
-  background-color: #f9f9f9;
+  background-color: #fff;
 }
 
 tr.col-2 {
-  background-color: #e0e0e0;
+  background-color: #f1efef;
 }
 
-tr:hover {
-  background-color: #e0e0e0; /* Change the background color on hover */
+tr:hover td {
+  background-color: #f1efef; /* Change the background color on hover */
 }

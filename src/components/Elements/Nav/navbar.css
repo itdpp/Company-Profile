@@ -2,8 +2,9 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #000;
-    color: #fff;
+    background: #fff;
+    /* background-color: rgba(0,0,0,0.3); */
+    color: black;
     padding: 2% 20px;
 
   }
@@ -17,6 +18,7 @@
   .navbar-links {
     list-style: none;
     display: flex;
+    color: black;
   }
   
   .navbar-links li {

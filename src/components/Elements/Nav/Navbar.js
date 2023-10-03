@@ -5,14 +5,15 @@ export const Navbar = () => {
   // const navigate = useNavigate()
   return (
     <>
-      <nav className="navbar-top">
+      {/* <nav className="navbar-top">
         <div className="navbar-logo">
           <img src="https://www.dpp.co.id/wp-content/uploads/2022/04/dpppppppp.png"></img>
         </div>
 
-      </nav>
+      </nav> */}
       <nav className="navbar-bottom">
         <div className="navbar-logo">
+        <img src="https://www.dpp.co.id/wp-content/uploads/2022/04/dpppppppp.png"></img>
         </div>
         <ul className="navbar-links">
           <li className="dropdown">

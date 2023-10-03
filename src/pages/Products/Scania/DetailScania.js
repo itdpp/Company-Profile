@@ -1,13 +1,14 @@
 import React from "react";
-import { useNavigate } from "react-router-dom";
+// import { useNavigate } from "react-router-dom";
 
 export const DetailScania = () => {
-  const navigate = useNavigate();
+  // const navigate = useNavigate();
   return (
     <main className="detail-product">
       <h2 className="detail-judul-product">H3200-YC</h2>
       <div className="detail-background">
         <img
+          alt="Scania"
           src="https://www.scania.com/content/dam/group/about-us/heritage/corporate-milestones/2017-the-xt-range-introduced.jpg.transform/Rend_1200X630/image.jpg"
           className="background-image"
         ></img>
@@ -16,28 +17,9 @@ export const DetailScania = () => {
           <h1>Scania Truck</h1>
         </div>
       </div>
-      {/* <div className="detail-wrap-product">
-        <div className="card-product">
-          <div className="wrap-img" onClick={() => navigate("/detailscania")}>
-            <img
-              src="https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png"
-              alt="Exca"
-            />
-          </div>
-        </div>
-        <div className="card-product">
-          <div className="wrap-img" onClick={() => navigate("/detailscania")}>
-            <img
-              src="https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png"
-              alt="Exca"
-            />
-          </div>
-          <h3 className="nama-product">Dump Truck</h3>
-        </div>
-      </div> */}
       <div className="detail-wrap-product">
         <div className="detail-gambar">
-          <img src="https://images.bisnis.com/posts/2019/04/04/907820/scania-r520.jpg" />
+          <img src="https://products.unitedtractors.com/wp-content/uploads/2021/04/Mining-Tipper-Heavy-Hauler-Trucks.png" />
         </div>
 
         <div className="detail-text">

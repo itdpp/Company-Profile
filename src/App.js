@@ -3,15 +3,22 @@ import "./App.css";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Products } from "./pages/Products/Products";
 import About from "./pages/About/About";
+<<<<<<< HEAD
 import { Navbar } from "./components/Elements/Nav/Navbar";
 import { Footer } from "./components/Elements/Foot/Footer";
 import  AboutValues  from "./pages/About/Values/AboutValues"
+=======
+import { Navbar } from "./components/Elements/Navbar";
+import { Footer } from "./components/Elements/Footer";
+import { ProductScania } from "./pages/Products/Scania/ProductScania";
+import { TypeScania } from "./pages/Products/Scania/TypeScania";
+import { DetailScania } from "./pages/Products/Scania/DetailScania";
+import AboutValues from "./pages/About/Values/AboutValues";
+>>>>>>> 02a571b2ee5b39aeffbf008ad8d6e4a6455d56c1
 import Board from "./pages/About/BoardOfDirector/Boards"
 import MilestoneAward from "./pages/About/MilestoneAwards/MilestoneAward";
 import Taglines from "./pages/About/Tagline/Taglines";
 import VisionMissions from "./pages/About/VisionMissions/VisionMission";
-import {DetailScania} from "./pages/Products/Scania/DetailScania";
-import {ProductScania} from "./pages/Products/Scania/ProductScania";
 
 function App() {
   return (
@@ -21,13 +28,16 @@ function App() {
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/product" element={<Products />} />
-          <Route path="/values" element={<AboutValues />} />
+          <Route path="/productscania" element={<ProductScania/>} />
+          <Route path="/detailscania" element={<DetailScania/>} />
+          <Route path="/Values" element={<AboutValues/>}/>
           <Route path="/board" element={<Board />}/>
           <Route path="/awards" element={<MilestoneAward />}/>
           <Route path="/tagline" element={<Taglines />}/>
           <Route path="/vision" element={<VisionMissions />}/>
           <Route path="/detailscania" element={<DetailScania />}/>
           <Route path="/productscania" element={<ProductScania />}/>
+          <Route path="/typescania" element={<TypeScania />}/>
         </Routes>
       </Router>
     <Footer/>

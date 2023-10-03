@@ -29,7 +29,7 @@ export const TypeScania = () => {
         <div className="card-product">
           <div className="wrap-img" onClick={() => navigate("/detailscania")}>
             <img
-              src="https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png"
+              src="https://images.bisnis.com/posts/2019/04/04/907820/scania-r520.jpg"
               alt="Exca"
             />
           </div>

@@ -13,6 +13,10 @@ import Board from "./pages/About/BoardOfDirector/Boards"
 import MilestoneAward from "./pages/About/MilestoneAwards/MilestoneAward";
 import Taglines from "./pages/About/Tagline/Taglines";
 import VisionMissions from "./pages/About/VisionMissions/VisionMission";
+import { TypeScaniaFuel } from "./pages/Products/Scania/TypeScaniaFuel";
+import { TypeScaniaVessel } from "./pages/Products/Scania/TypeScaniaVessel";
+import { Contact } from "./pages/Contact/Contact";
+import { ProductPatria } from "./pages/Products/Patria/ProductPatria";
 
 function App() {
   return (
@@ -32,6 +36,10 @@ function App() {
           <Route path="/detailscania" element={<DetailScania />} />
           <Route path="/productscania" element={<ProductScania />} />
           <Route path="/typescania" element={<TypeScania />} />
+          <Route path="/typescaniafuel" element={<TypeScaniaFuel/>} />
+          <Route path="/typescaniavessel" element={<TypeScaniaVessel/>} />
+          <Route path="/productpatria" element={<ProductPatria/>} />
+          <Route path="/contact" element={<Contact/>} />
         </Routes>
       </Router>
       <Footer />

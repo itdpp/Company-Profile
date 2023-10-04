@@ -14,7 +14,7 @@ export const DetailScania = () => {
         ></img>
         <div className="overlay"></div>
         <div className="content">
-          <h1>Scania Truck</h1>
+          <h1>Scania Truck </h1>
         </div>
       </div>
       <div className="detail-wrap-product">

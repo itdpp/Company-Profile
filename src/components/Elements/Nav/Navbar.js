@@ -1,5 +1,5 @@
 import React from "react";
-import '../Nav/navbar.css'
+import "../Nav/navbar.css";
 
 export const Navbar = () => {
   // const navigate = useNavigate()
@@ -13,7 +13,7 @@ export const Navbar = () => {
       </nav> */}
       <nav className="navbar-bottom">
         <div className="navbar-logo">
-        <img src="https://www.dpp.co.id/wp-content/uploads/2022/04/dpppppppp.png"></img>
+          <img src="https://www.dpp.co.id/wp-content/uploads/2022/04/dpppppppp.png"></img>
         </div>
         <ul className="navbar-links">
           <li className="dropdown">
@@ -30,15 +30,15 @@ export const Navbar = () => {
             <a href="/product">Products</a>
             <div className="dropdown-content">
               <a href="/productscania">Scania</a>
+              <a href="/productpatria">Patria</a>
               <a href="#">Mercedes</a>
-              <a href="#">Patria</a>
             </div>
           </li>
           <li>
             <a href="#">Industries</a>
           </li>
           <li>
-            <a href="#">Contact</a>
+            <a href="/contact">Contact</a>
           </li>
           <li>
             <a href="#">News</a>

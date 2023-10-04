@@ -30,8 +30,8 @@ export const Navbar = () => {
             <a href="/product">Products</a>
             <div className="dropdown-content">
               <a href="/productscania">Scania</a>
+              <a href="/productpatria">Patria</a>
               <a href="#">Mercedes</a>
-              <a href="#">Patria</a>
             </div>
           </li>
           <li>

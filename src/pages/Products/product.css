@@ -107,8 +107,9 @@
 }
 
 .product .gambar-logo img {
-  width: 30%;
-  margin-bottom: 10%;
+  width: 28%;
+  margin-top: 4%;
+  margin-bottom: 8%;
 }
 
 .product .wrap-product {
@@ -183,8 +184,8 @@
 }
 
 .type-product .gambar-logo img {
-  width: 30%;
-  margin-bottom: 4%;
+  width: 28%;
+  margin: 4% 0;
 }
 
 .type-product .type-article-product {
@@ -385,4 +386,40 @@ tr.col-2 {
 
 tr:hover td {
   background-color: #f1efef; /* Change the background color on hover */
+}
+
+/* =======patria===== */
+
+.type-product .type-article-product{
+  margin-bottom: 8%;
+}
+
+.type-product .detail-wrap-product {
+  width: 80%;
+  margin-top: -5%;
+  /* background-color: green; */
+}
+.type-product .detail-wrap-product .detail-gambar img{
+  /* width: 80%;  */
+  /* background-color: green; */
+  border: none;
+}
+
+.type-product .detail-wrap-product .detail-text {
+  /* width: 80%; */
+  margin-left: -20px;
+  /* background-color: green; */
+}
+
+.type-product .detail-wrap-product p{
+  text-align: left;
+  margin: 2% 0;
+  color: #214896;
+}
+
+.type-product .detail-wrap-product li{
+  text-align: left;
+  margin: 2% 0;
+  color: #214896;
+  margin: 0
 }

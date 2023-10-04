@@ -16,6 +16,7 @@ import VisionMissions from "./pages/About/VisionMissions/VisionMission";
 import { TypeScaniaFuel } from "./pages/Products/Scania/TypeScaniaFuel";
 import { TypeScaniaVessel } from "./pages/Products/Scania/TypeScaniaVessel";
 import { Contact } from "./pages/Contact/Contact";
+import { ProductPatria } from "./pages/Products/Patria/ProductPatria";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
           <Route path="/typescania" element={<TypeScania />} />
           <Route path="/typescaniafuel" element={<TypeScaniaFuel/>} />
           <Route path="/typescaniavessel" element={<TypeScaniaVessel/>} />
+          <Route path="/productpatria" element={<ProductPatria/>} />
           <Route path="/contact" element={<Contact/>} />
         </Routes>
       </Router>

@@ -12,6 +12,14 @@ module.exports = {
       height: {
         hero: "480px",
       },
+      // screens: {
+      //   'sm': { 'min': '320px', 'max': '359px' },
+      //   'md': { 'min': '360px', 'max': '479px' },
+      //   'lg': { 'min': '480px', 'max': '767px' },
+      //   'xl': { 'min': '768px', 'max': '991px' },
+      //   '2xl': { 'min': '992px', 'max': '1279px' },
+      //   '3xl': { 'min': '1280px' }
+      // },
     },
   },
   plugins: [],

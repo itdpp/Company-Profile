@@ -18,6 +18,7 @@ import { TypeScaniaVessel } from "./pages/Products/Scania/TypeScaniaVessel";
 import { Contact } from "./pages/Contact/Contact";
 import { ProductPatria } from "./pages/Products/Patria/ProductPatria";
 import { News } from "./pages/News/News";
+import { DetailNews } from "./pages/News/DetailNews";
 
 function App() {
   return (
@@ -42,6 +43,7 @@ function App() {
           <Route path="/productpatria" element={<ProductPatria/>} />
           <Route path="/contact" element={<Contact/>} />
           <Route path="/news" element={<News/>} />
+          <Route path="/detailnews" element={<DetailNews/>} />
         </Routes>
       </Router>
       <Footer />

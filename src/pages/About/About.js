@@ -8,11 +8,11 @@ const About = () => {
     <>
     <main className='h-full w-full'>
     <Herosection content={title}/>
-    <div className=''>
-      <div className='border-slate-950 border-2 shadow-3xl w-fit mx-auto my-12 sm: md:'>
-      <img className='w-fit h-40 sm:h-80 md:h-60' src={GambarAbout}/>
+    <div className='md:grid md:grid-cols-2 md:mx-8 '>
+      <div className='border-slate-950 border-2 shadow-3xl w-fit mx-auto my-12 md:h-48 md:mt-3 md:ml-12 lg:h-60 lg:w-96 xl:h-80 xl:w-[550px]'>
+      <img className='w-fit h-40 sm:h-80 md:h-48 lg:w-96 lg:h-60 xl:h-80 xl:w-[550px]' src={GambarAbout}/>
       </div>
-      <div className='mx-auto mb-12 text-justify px-7 sm:px-10'>
+      <div className='mx-auto mb-12 text-justify px-7 sm:px-10 '>
         <ul>
           <li><p className='font-bold text-xl mb-6'>PT Dian Pandu Pratama</p></li>
           <li>PT Dian Pandu Pratama adalah perusahaan yang berdiri sejak tahun 2012 dan bergerak dalam bidang Job & Labour Supply.</li>

@@ -12,14 +12,14 @@ export const DetailScania = () => {
       <BackgroundOverlay content={judul} />
 
       <div className="grid grid-cols-1 md:grid-cols-2  md:-space-x-0 lg:-space-x-5 xl:-space-x-18">
-        <div className="px-12 pt-16 mx-auto grid gap-y-5 md:w-[370px] md:h-[370px] md:px-0 md:p-0 md:block lg:w-[480px] lg:h-[480px] lg:p-3 xl:px-0  ">
+        <div className="px-12 pt-16 mx-auto grid gap-y-5 md:w-[370px] md:h-[370px] md:px-0 md:p-0 md:block lg:w-[480px] lg:h-[480px] lg:p-3 xl:px-0 2xl:w-[600px] 2xl:h-[600px] ">
           <img
             src="https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png"
             alt="product"
             className="w-full h-full aspect-square bg-cover border border-gray-300 "
           />
         </div>
-        <div className="p-4 md:py-0 md:w-auto md:h-auto lg:pr-1 xl:p-0 xl:pr-36 2xl:pr-52">
+        <div className="p-4 md:py-0 md:w-auto md:h-auto lg:pr-20 xl:p-0 xl:pr-36 2xl:pr-52">
           <h2 className="my-4 text-3xl font-semibold md:mt-0">{judul}</h2>
           <ul className="list-disc ml-8 text-blue-900">
             <li>Opertarion Weight 70 ton</li>
@@ -29,96 +29,88 @@ export const DetailScania = () => {
           <div class="flex flex-col text-blue-900">
             <div class="overflow-x-auto sm:-mx-6 lg:-mx-8">
               <div class="inline-block min-w-full py-2 sm:px-6 lg:px-8">
-                  <h2 className="text-base font-semibold py-3">GENERAL</h2>
-                  <table class="min-w-full text-left text-sm font-light">
-                    <tbody>
-                      <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Operation Weight
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          70 ton
-                        </td>
-                      </tr>
-                      <tr class="border-b bg-white dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Size
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          -
-                        </td>
-                      </tr>
-                      <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Emission
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          Tier 2
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
-                  <h2 className="text-base font-semibold py-3">ENGINE</h2>
-                  <table class="min-w-full text-left text-sm font-light">
-                    <tbody>
-                      <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Operation Weight
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          70 ton
-                        </td>
-                      </tr>
-                      <tr class="border-b bg-white dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Size
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          -
-                        </td>
-                      </tr>
-                      <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Emission
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          Tier 2
-                        </td>
-                      </tr>
-                      <tr class="border-b bg-white dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Size
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          -
-                        </td>
-                      </tr>
-                      <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Emission
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          Tier 2
-                        </td>
-                      </tr>
-                      <tr class="border-b bg-white dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Size
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          -
-                        </td>
-                      </tr>
-                      <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
-                        <td class="whitespace-nowrap px-6 py-4 font-bold">
-                          Emission
-                        </td>
-                        <td class="whitespace-nowrap px-6 py-4 font-normal">
-                          Tier 2
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+                <h2 className="text-base font-semibold py-3">GENERAL</h2>
+                <table class="min-w-full text-left text-sm font-light">
+                  <tbody>
+                    <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Operation Weight
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">
+                        70 ton
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-white dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Size
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">-</td>
+                    </tr>
+                    <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Emission
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">
+                        Tier 2
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+                <h2 className="text-base font-semibold py-3">ENGINE</h2>
+                <table class="min-w-full text-left text-sm font-light">
+                  <tbody>
+                    <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Operation Weight
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">
+                        70 ton
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-white dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Size
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">-</td>
+                    </tr>
+                    <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Emission
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">
+                        Tier 2
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-white dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Size
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">-</td>
+                    </tr>
+                    <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Emission
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">
+                        Tier 2
+                      </td>
+                    </tr>
+                    <tr class="border-b bg-white dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Size
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">-</td>
+                    </tr>
+                    <tr class="border-b bg-neutral-100 dark:border-neutral-500 dark:bg-neutral-700">
+                      <td class="whitespace-nowrap px-6 py-4 font-bold">
+                        Emission
+                      </td>
+                      <td class="whitespace-nowrap px-6 py-4 font-normal">
+                        Tier 2
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
               </div>
             </div>
           </div>

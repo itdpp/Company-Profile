@@ -19,6 +19,7 @@ import { Contact } from "./pages/Contact/Contact";
 import { ProductPatria } from "./pages/Products/Patria/ProductPatria";
 import { News } from "./pages/News/News";
 import { DetailNews } from "./pages/News/DetailNews";
+import LandingPage from "./pages/LandingPages/LandingPage";
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/news" element={<News/>} />
           <Route path="/detailnews" element={<DetailNews/>} />
+          <Route path="/landingpage" element={<LandingPage/>}/>
         </Routes>
       </Router>
       <Footer />

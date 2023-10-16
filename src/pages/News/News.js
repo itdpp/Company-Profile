@@ -1,11 +1,13 @@
 import React from "react";
+import BackgroundOverlay from "../../components/Fragments/BackgroundOverlay";
 
 export const News = () => {
+  const data = "News"
   return (
     <main className="w-full h-full justify-center">
 
       {/*background overlay judul */}
-      <div className="relative -z-50 mb-10 sm:mb-14 lg:mb-20">
+      {/* <div className="relative -z-50 mb-10 sm:mb-14 lg:mb-20">
         <img
           src="https://products.unitedtractors.com/wp-content/uploads/2022/03/MicrosoftTeams-image-24.jpg"
           alt="Product"
@@ -17,7 +19,8 @@ export const News = () => {
             News
           </h1>
         </div>
-      </div>
+      </div> */}
+      <BackgroundOverlay content={data} />
 
       {/* card news  */}
 

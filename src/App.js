@@ -20,6 +20,7 @@ import { ProductPatria } from "./pages/Products/Patria/ProductPatria";
 import { News } from "./pages/News/News";
 import { DetailNews } from "./pages/News/DetailNews";
 import LandingPage from "./pages/LandingPages/LandingPage";
+import Industries from "./pages/Industries/Industries";
 
 function App() {
   return (
@@ -46,6 +47,7 @@ function App() {
           <Route path="/news" element={<News/>} />
           <Route path="/detailnews" element={<DetailNews/>} />
           <Route path="/landingpage" element={<LandingPage/>}/>
+          <Route path="/industries" element={<Industries/>} />
         </Routes>
       </Router>
       <Footer />

@@ -9,7 +9,7 @@ const AboutValues = () => {
         <Herosection content={title} />
 
         <div className="text-center my-20 mx-8 ">
-          <img className="items-center sm:mx-36 md:mx-44 lg:mx-80 xl:mx-[440px]" src="https://www.dpp.co.id/wp-content/uploads/2022/04/dpppppppp.png"></img>
+          <img className="items-center sm:mx-36 md:mx-56 lg:mx-96 xl:mx-[440px]" src="https://www.dpp.co.id/wp-content/uploads/2022/04/dpppppppp.png"></img>
           <p className="font-bold text-lg">S.M.A.R.T</p>
           <h4 className="font-semibold text-sm">Satisfaction - Morale - Adaptability - Responsibility - Teamwork</h4>
         </div>
@@ -27,7 +27,9 @@ const AboutValues = () => {
             <p className="text-blue-800">The desire to help or serve others (customers) in accordance with the needs of external and internal customers.</p>
           </div>
         </div>
-      </main>
+        <div>
+        </div>
+        </main>
     </>
   );
 };

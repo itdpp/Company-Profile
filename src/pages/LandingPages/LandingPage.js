@@ -90,7 +90,7 @@ const LandingPage = () => {
       </div>
     </div>
     <div className='mx-10 my-16'>
-        <img src='https://www.uniquip.co.id/wp-content/uploads/2023/08/Logo-Principles-1-1024x139.jpg' alt=''/>
+        <img className='mx-auto' src='https://www.uniquip.co.id/wp-content/uploads/2023/08/Logo-Principles-1-1024x139.jpg' alt=''/>
     </div>
     <div className='text-center my-8 '>
         <p className='text-3xl  font-bold'>OUR NETWORK</p>

@@ -29,7 +29,7 @@ function App() {
       <Navbar />
       <Router>
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/" element={<LandingPage />} />
           <Route path="/product" element={<Products />} />
           <Route path="/productscania" element={<ProductScania />} />
           <Route path="/detailscania" element={<DetailScania />} />
@@ -47,7 +47,7 @@ function App() {
           <Route path="/contact" element={<Contact/>} />
           <Route path="/news" element={<News/>} />
           <Route path="/detailnews" element={<DetailNews/>} />
-          <Route path="/landingpage" element={<LandingPage/>}/>
+          <Route path="/about" element={<About/>}/>
           <Route path="/industries" element={<Industries/>} />
           <Route path="/career" element={<Career/>} />
         </Routes>

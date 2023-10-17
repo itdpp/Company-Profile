@@ -1,8 +1,9 @@
 import React from "react";
 import "../Nav/navbar.css";
+// import { useNavigate } from "react-router-dom";
 
 export const Navbar = () => {
-  // const navigate = useNavigate()
+  // const navigate = useNavigate();
   return (
     <>
       {/* <nav className="navbar-top">
@@ -30,7 +31,7 @@ export const Navbar = () => {
             <a href="/product">Products</a>
             <div className="dropdown-content">
               <a href="/productscania">Scania</a>
-              <a href="/productpatria">Patria</a>
+              <a href="/">Patria</a>
               <a href="#">Mercedes</a>
             </div>
           </li>
@@ -39,6 +40,9 @@ export const Navbar = () => {
           </li>
           <li>
             <a href="/contact">Contact</a>
+          </li>
+          <li>
+            <a href="/ournetwork">Our Network</a>
           </li>
           <li>
             <a href="/career">Career</a>

@@ -27,7 +27,7 @@ export const TypeScaniaFuel = () => {
       <div className="type-wrap-product">
         <div className="card-product">
           <div className="wrap-img" onClick={() => navigate("/detailscania")}>
-            <img
+            <img 
               src="https://products.unitedtractors.com/wp-content/uploads/2021/03/CWE28064T.png"
               alt="Exca"
             />

@@ -1,11 +1,14 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
-  content: ["./src/**/*.{js,jsx,ts,tsx}",
-  'node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "node_modules/flowbite-react/**/*.{js,jsx,ts,tsx}",
+  ],
   theme: {
     extend: {
       colors: {
         imgGelap: "rgba(0, 0, 0, 0.5)",
+        gelap: "#2f2f2f",
       },
       boxShadow: {
         "3xl": "4px 5px 5px 5px rgba(0.5, 0.5, 0.5, 0.5)",
@@ -23,5 +26,5 @@ module.exports = {
       // },
     },
   },
-  plugins: [require('flowbite/plugin')],
+  plugins: [require("flowbite/plugin")],
 };

@@ -6,7 +6,7 @@ const LandingPage = () => {
    <>
    <main className='h-full w-full'>
     <div className='aspect-video w-full'>
-    <Carousel  slideInterval={5000}>
+    <Carousel className='-z-50' slideInterval={5000}>
     <div className="relative -z-50 mb-10 sm:mb-14 lg:mb-20">
         <img
           src="https://products.unitedtractors.com/wp-content/uploads/2022/03/MicrosoftTeams-image-24.jpg"

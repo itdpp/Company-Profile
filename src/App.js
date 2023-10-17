@@ -22,6 +22,7 @@ import { DetailNews } from "./pages/News/DetailNews";
 import LandingPage from "./pages/LandingPages/LandingPage";
 import Industries from "./pages/Industries/Industries";
 import Career from "./pages/Career/Career";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
           <Route path="/about" element={<About/>}/>
           <Route path="/industries" element={<Industries/>} />
           <Route path="/career" element={<Career/>} />
+          <Route path="/*" element={<NotFound/>} />
         </Routes>
       </Router>
       <Footer />

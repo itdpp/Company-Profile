@@ -23,6 +23,7 @@ import LandingPage from "./pages/LandingPages/LandingPage";
 import Industries from "./pages/Industries/Industries";
 import Career from "./pages/Career/Career";
 import OurNetwork from "./pages/OurNetwork/OurNetwork";
+import NotFound from "./pages/NotFound";
 
 function App() {
   return (
@@ -52,6 +53,7 @@ function App() {
           <Route path="/industries" element={<Industries/>} />
           <Route path="/career" element={<Career/>} />
           <Route path="/ournetwork" element={<OurNetwork/>} />
+          <Route path="/*" element={<NotFound/>} />
         </Routes>
       </Router>
       <Footer />

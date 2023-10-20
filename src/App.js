@@ -5,11 +5,11 @@ import { Products } from "./pages/Products/Products";
 import About from "./pages/About/About";
 import { Navbar } from "./components/Elements/Nav/Navbar";
 import { Footer } from "./components/Elements/Foot/Footer";
-import  AboutValues  from "./pages/About/Values/AboutValues";
+import AboutValues from "./pages/About/Values/AboutValues";
 import { ProductScania } from "./pages/Products/Scania/ProductScania";
 import { TypeScania } from "./pages/Products/Scania/TypeScania";
 import { DetailScania } from "./pages/Products/Scania/DetailScania";
-import Board from "./pages/About/BoardOfDirector/Boards"
+import Board from "./pages/About/BoardOfDirector/Boards";
 import MilestoneAward from "./pages/About/MilestoneAwards/MilestoneAward";
 import Taglines from "./pages/About/Tagline/Taglines";
 import VisionMissions from "./pages/About/VisionMissions/VisionMission";
@@ -28,8 +28,8 @@ import NotFound from "./pages/NotFound";
 function App() {
   return (
     <>
-      <Navbar />
       <Router>
+        <Navbar />
         <Routes>
           <Route path="/" element={<LandingPage />} />
           <Route path="/product" element={<Products />} />
@@ -43,17 +43,17 @@ function App() {
           <Route path="/detailscania" element={<DetailScania />} />
           <Route path="/productscania" element={<ProductScania />} />
           <Route path="/typescania" element={<TypeScania />} />
-          <Route path="/typescaniafuel" element={<TypeScaniaFuel/>} />
-          <Route path="/typescaniavessel" element={<TypeScaniaVessel/>} />
-          <Route path="/productpatria" element={<ProductPatria/>} />
-          <Route path="/contact" element={<Contact/>} />
-          <Route path="/news" element={<News/>} />
-          <Route path="/detailnews" element={<DetailNews/>} />
-          <Route path="/about" element={<About/>}/>
-          <Route path="/industries" element={<Industries/>} />
-          <Route path="/career" element={<Career/>} />
-          <Route path="/ournetwork" element={<OurNetwork/>} />
-          <Route path="/*" element={<NotFound/>} />
+          <Route path="/typescaniafuel" element={<TypeScaniaFuel />} />
+          <Route path="/typescaniavessel" element={<TypeScaniaVessel />} />
+          <Route path="/productpatria" element={<ProductPatria />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/news" element={<News />} />
+          <Route path="/detailnews" element={<DetailNews />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/industries" element={<Industries />} />
+          <Route path="/career" element={<Career />} />
+          <Route path="/ournetwork" element={<OurNetwork />} />
+          <Route path="/*" element={<NotFound />} />
         </Routes>
       </Router>
       <Footer />

@@ -48,7 +48,7 @@ function App() {
           <Route path="/productpatria" element={<ProductPatria />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/news" element={<News />} />
-          <Route path="/detailnews" element={<DetailNews />} />
+          <Route path="/detailnews/:id" element={<DetailNews />} />
           <Route path="/about" element={<About />} />
           <Route path="/industries" element={<Industries />} />
           <Route path="/career" element={<Career />} />

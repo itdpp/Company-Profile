@@ -1,14 +1,5 @@
 import React from "react";
 import "../Nav/navbar.css";
-<<<<<<< HEAD
-// import { useNavigate } from "react-router-dom";
-import { useState } from "react";
-
-export const Navbar = () => {
-  // const navigate = useNavigate();
-  const [isDropdownOpen, setDropdownOpen] = useState(false);
-
-=======
 import { useNavigate } from "react-router-dom";
 import Logo from "../../../assets/logo.png";
 import { useState } from "react";
@@ -21,93 +12,9 @@ export const Navbar = () => {
     setDropdownOpen(!isDropdownOpen);
   };
 
->>>>>>> b8392dcceed2bec1f3be65b1c9105817aa589a8f
   const handleMouseEnter = () => {
     setDropdownOpen(true);
   };
-
-<<<<<<< HEAD
-  const handleMouseLeave = () => {
-    setDropdownOpen(false);
-  };
-  
-  return (
-    <>
-      {/* <nav className="navbar-top">
-        <div className="navbar-logo">
-          <img src="https://www.dpp.co.id/wp-content/uploads/2022/04/dpppppppp.png"></img>
-        </div>
-
-      </nav> */}
-      {/* <nav className="navbar-bottom">
-        <div className="navbar-logo">
-          <img src="https://www.dpp.co.id/wp-content/uploads/2022/04/dpppppppp.png"></img>
-        </div>
-        <ul className="navbar-links">
-          <li className="dropdown">
-            <a href="/">About</a>
-            <div className="dropdown-content">
-              <a href="/values">Values</a>
-              <a href="/vision">Vision & Mission</a>
-              <a href="tagline">Tagline</a>
-              <a href="awards">Milestone & Awards</a>
-              <a href="board">Board of director</a>
-            </div>
-          </li>
-          <li className="dropdown">
-            <a href="/product">Products</a>
-            <div className="dropdown-content">
-              <a href="/productscania">Scania</a>
-              <a href="/">Patria</a>
-              <a href="#">Mercedes</a>
-            </div>
-          </li>
-          <li>
-            <a href="/industries">Industries</a>
-          </li>
-          <li>
-            <a href="/contact">Contact</a>
-          </li>
-          <li>
-            <a href="/ournetwork">Our Network</a>
-          </li>
-          <li>
-            <a href="/career">Career</a>
-          </li>
-          <li>
-            <a href="/news">News</a>
-          </li>
-        </ul>
-      </nav> */}
-        <nav className="bg-gray-800 p-4">
-      <div className="container mx-auto flex justify-between items-center">
-        <div className="text-white text-xl font-semibold">My Website</div>
-        <div className="space-x-4 relative">
-          <a href="/" className="text-white hover:text-gray-300">Home</a>
-          <a href="/about" className="text-white hover:text-gray-300">About</a>
-          <div
-            className="group inline-block relative"
-            onMouseEnter={handleMouseEnter}
-            onMouseLeave={handleMouseLeave}
-          >
-            <button className="text-white hover:text-gray-300 focus:outline-none">
-              Dropdown
-            </button>
-            {isDropdownOpen && (
-              <div className="absolute mt-2 space-y-2 bg-gray-800 text-white p-2 rounded-lg">
-                <button className="block hover:text-gray-300" onClick={() => alert('Profile clicked')}>
-                  Profile
-                </button>
-                <button className="block hover:text-gray-300" onClick={() => alert('Settings clicked')}>
-                  Settings
-                </button>
-              </div>
-            )}
-          </div>
-        </div>
-      </div>
-    </nav>
-=======
 
   const handleMouseLeave = () => {
     setDropdownOpen(false);
@@ -163,7 +70,7 @@ export const Navbar = () => {
               onMouseLeave={handleMouseLeave}
             >
               <button
-                onClick={()=>navigate('/product')}
+                onClick={() => navigate("/product")}
                 className="flex items-center justify-between w-full py-2 pl-3 pr-4  text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
               >
                 Products
@@ -185,7 +92,10 @@ export const Navbar = () => {
               </button>
               {isDropdownOpen && (
                 <div className="absolute font-normal bg-white divide-y divide-gray-100 rounded-md shadow w-44">
-                  <a href="/productscania" class="block px-4 py-2 hover:bg-gray-100">
+                  <a
+                    href="/productscania"
+                    class="block px-4 py-2 hover:bg-gray-100"
+                  >
                     Scania
                   </a>
                   <a
@@ -230,7 +140,6 @@ export const Navbar = () => {
           </div>
         </div>
       </nav>
->>>>>>> b8392dcceed2bec1f3be65b1c9105817aa589a8f
     </>
   );
 };

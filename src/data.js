@@ -1,3 +1,7 @@
+
+//GAMBAR O
+
+
 //product
 
 export const dataProduct = [
@@ -140,3 +144,28 @@ export const dataIndustries = [
     desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, PT Dian Pandu Pratama berinisiatif melakukan proses sertifikasi kepada seluruh karyawan welder untuk dapat meningkatkan kompetensi serta memiliki daya saing yang tinggi. Pelaksanaan sertifikasi ini dilakukan dengan cara bekerja sama dengan LSP IMABI (Industri Manufaktur Alat Berat Indonesia) yang memiliki skema Okupasi Welder yang telah mencakup semua kebutuhan PT Dian Pandu Pratama.Pelaksanaan sertifikasi ini juga diselenggarakan bersama dengan pelatihan yang dilakukan langsung oleh trainer-trainer dari PT Dian Pandu Pratama sehingga proses pelaksanaan sertifikasi dapat berjalan sesuai dengan yang diinginkan PT Dian Pandu Pratama. Dalam melaksanakan proses sertifikasi ini, tidak hanya area job site saja yang diberikan namun area Plant Cikarang juga diberikan. Pelaksanaan ini telah sukses mencetak certified welder sebanyak 204 karyawan sehingga telah menambahkan "
   },
 ];
+
+// CAREER
+export const dataCareer = [
+  {
+    id: 1,
+    judul: "Welder",
+    img: "https://cdc.stekom.ac.id/assets/loker/49ed28da29bee89419a868e9479c7b4496bbf264.webp",
+    list:['Pendidikan minimal D3 untuk semua jurusan','Usia maksimal 35 tahun','Pengalaman min 3 tahun dibidang yang sama'],
+    email: "careerdpp01@gmail.com"
+  },
+  {
+    id: 2,
+    judul: "Supervisor Site Operation",
+    img: "https://media.licdn.com/dms/image/D5622AQFPux6I_DBW9w/feedshare-shrink_800/0/1696319673790?e=2147483647&v=beta&t=9X_Q3iLRXzn-IV-xcpezGrp_07iESe3WWGajXF3uTQM",
+    list:['Pendidikan minimal D3 untuk semua jurusan','Usia maksimal 35 tahun','Pengalaman min 3 tahun dibidang yang sama','Bersedia melakukan perjalanan dinas ke site','Jujur, cekatan dan teliti'],
+    email: "careerdpp01@gmail.com"
+  },
+  {
+    id: 2,
+    judul: "Welder SMAW",
+    img: "https://media.licdn.com/dms/image/C5622AQEGQaiTJiSVgQ/feedshare-shrink_800/0/1672109079443?e=1699488000&v=beta&t=kGfmkN3IJvFYC4uFX4sAol5ZCILbSeGWJIgHVp_pmE0",
+    list:['Pendidikan minimal D3 untuk semua jurusan','Usia maksimal 35 tahun','Pengalaman min 3 tahun dibidang yang sama'],
+    email: "careerdpp01@gmail.com"
+  },
+]

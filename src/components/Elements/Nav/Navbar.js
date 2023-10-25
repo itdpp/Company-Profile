@@ -1,9 +1,20 @@
 import React from "react";
 import "../Nav/navbar.css";
 // import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 export const Navbar = () => {
   // const navigate = useNavigate();
+  const [isDropdownOpen, setDropdownOpen] = useState(false);
+
+  const handleMouseEnter = () => {
+    setDropdownOpen(true);
+  };
+
+  const handleMouseLeave = () => {
+    setDropdownOpen(false);
+  };
+  
   return (
     <>
       {/* <nav className="navbar-top">
@@ -12,7 +23,7 @@ export const Navbar = () => {
         </div>
 
       </nav> */}
-      <nav className="navbar-bottom">
+      {/* <nav className="navbar-bottom">
         <div className="navbar-logo">
           <img src="https://www.dpp.co.id/wp-content/uploads/2022/04/dpppppppp.png"></img>
         </div>
@@ -51,7 +62,35 @@ export const Navbar = () => {
             <a href="/news">News</a>
           </li>
         </ul>
-      </nav>
+      </nav> */}
+        <nav className="bg-gray-800 p-4">
+      <div className="container mx-auto flex justify-between items-center">
+        <div className="text-white text-xl font-semibold">My Website</div>
+        <div className="space-x-4 relative">
+          <a href="/" className="text-white hover:text-gray-300">Home</a>
+          <a href="/about" className="text-white hover:text-gray-300">About</a>
+          <div
+            className="group inline-block relative"
+            onMouseEnter={handleMouseEnter}
+            onMouseLeave={handleMouseLeave}
+          >
+            <button className="text-white hover:text-gray-300 focus:outline-none">
+              Dropdown
+            </button>
+            {isDropdownOpen && (
+              <div className="absolute mt-2 space-y-2 bg-gray-800 text-white p-2 rounded-lg">
+                <button className="block hover:text-gray-300" onClick={() => alert('Profile clicked')}>
+                  Profile
+                </button>
+                <button className="block hover:text-gray-300" onClick={() => alert('Settings clicked')}>
+                  Settings
+                </button>
+              </div>
+            )}
+          </div>
+        </div>
+      </div>
+    </nav>
     </>
   );
 };

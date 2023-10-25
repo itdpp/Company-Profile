@@ -111,14 +111,14 @@ const LandingPage = () => {
     <div className='text-center my-8 '>
         <p className='text-3xl  font-bold'>OUR NETWORK</p>
     </div>
-    <div className=''>
-    <div>
+    <div className='xl:grid xl:grid-cols-2  xl:justify-items-end '>
+    <div className='ml-8'>
         <img src='https://www.uniquip.co.id/wp-content/uploads/2023/08/Peta-Cabang-Uniquip-1-2048x1144.jpg' alt=''/>
     </div>
-    <div className=''>
-        <p className='text-xl font-bold text-center'>HEAD OFFICE, BRANCHES & SERVICE POINT LOCATIONS</p>
-        <p className='mx-6 animate-fade'>Headquartered in Jakarta, UNIQUIP operates a modern heavy machinery workshop, parts warehouse, sales offices and training facilities. UNIQUIP operates sales and service branches across Indonesia in different locations allowing us to be closer to our customers in all regions and different sectors.</p>
-        <img className='mx-auto my-4 w-72 ' src='https://www.uniquip.co.id/wp-content/uploads/2023/09/UEI_2023_FINAL-UNIQCALL-1024x478.jpg' alt=''/>
+    <div className=' xl:mr-32'>
+        <p className='text-xl font-bold text-center xl:w-80 xl:ml-14 xl:mb-8'>HEAD OFFICE, BRANCHES & SERVICE POINT LOCATIONS</p>
+        <p className='mx-6 xl:w-96 text-center'>Headquartered in Jakarta, UNIQUIP operates a modern heavy machinery workshop, parts warehouse, sales offices and training facilities. UNIQUIP operates sales and service branches across Indonesia in different locations allowing us to be closer to our customers in all regions and different sectors.</p>
+        <img className='mx-auto my-4 w-72 xl:ml-16' src='https://www.uniquip.co.id/wp-content/uploads/2023/09/UEI_2023_FINAL-UNIQCALL-1024x478.jpg' alt=''/>
     </div>
     </div>
    </main>

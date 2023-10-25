@@ -7,7 +7,7 @@ const Herosection = (props) => {
         <div className="relative -z-50 mb-10 sm:mb-14 lg:mb-20">
         <img
           src={GambarAbout}
-          alt="Product"
+          alt="Hero"
           className="xl:w-full xl:h-[60vh] sm:w-full sm:h-96"
         />
         <div className="w-full h-full absolute bg-imgGelap top-0 left-0"></div>

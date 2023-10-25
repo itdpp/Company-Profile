@@ -1,5 +1,4 @@
 import React from "react";
-import "./Contact.css";
 import BackgroundOverlay from "../../components/Fragments/BackgroundOverlay";
 
 export const Contact = () => {

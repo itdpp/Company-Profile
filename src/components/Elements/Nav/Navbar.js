@@ -95,7 +95,10 @@ export const Navbar = () => {
               </button>
               {isProductsDropdownOpen && (
                 <div className="absolute font-normal bg-white divide-y divide-gray-100 rounded-md shadow w-44">
-                  <a href="/productscania" class="block px-4 py-2 hover:bg-gray-100">
+                  <a
+                    href="/productscania"
+                    class="block px-4 py-2 hover:bg-gray-100"
+                  >
                     Scania
                   </a>
                   <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">

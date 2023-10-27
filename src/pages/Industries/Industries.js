@@ -1,7 +1,7 @@
 import React from "react";
 import { Carousel } from "flowbite-react";
 import BackgroundOverlay from "../../components/Fragments/BackgroundOverlay";
-import { dataIndustries } from "../../data";
+import { dataIndustries, gambarAtas } from "../../data";
 
 const Industries = () => {
   const data = "Industries";
@@ -48,7 +48,7 @@ const Industries = () => {
   }
   return (
     <>
-      <BackgroundOverlay content={data} />
+      <BackgroundOverlay content={data} gambar={gambarAtas[0].industries} />
 
       <div>
         

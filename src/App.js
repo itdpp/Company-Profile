@@ -42,7 +42,7 @@ function App() {
           <Route path="/vision" element={<VisionMissions />} />
           <Route path="/detailscania" element={<DetailScania />} />
           <Route path="/productscania" element={<ProductScania />} />
-          <Route path="/typescania" element={<TypeScania />} />
+          <Route path="/typescania/:id" element={<TypeScania />} />
           <Route path="/typescaniafuel" element={<TypeScaniaFuel />} />
           <Route path="/typescaniavessel" element={<TypeScaniaVessel />} />
           <Route path="/productpatria" element={<ProductPatria />} />

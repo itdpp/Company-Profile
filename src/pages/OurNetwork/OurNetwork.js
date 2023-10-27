@@ -1,11 +1,12 @@
 import React from "react";
 import BackgroundOverlay from "../../components/Fragments/BackgroundOverlay";
+import { gambarAtas } from "../../data";
 
 const OurNetwork = () => {
   const data = "Our Network";
   return (
     <>
-      <BackgroundOverlay content={data} />
+      <BackgroundOverlay content={data} gambar={gambarAtas[0].ournetwork}/>
       <div>
         <div className="text-center w-full h-full">
           <p className="uppercase text-xl font-bold">Indonesia</p>

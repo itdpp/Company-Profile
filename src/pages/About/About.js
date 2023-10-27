@@ -10,7 +10,7 @@ const About = () => {
     <Herosection content={title}/>
     <div className='md:grid md:grid-cols-2 md:mx-8 '>
       <div className='border-slate-950 border-2 shadow-3xl w-fit mx-auto my-12 md:h-48 md:mt-3 md:ml-12 lg:h-60 lg:w-96 xl:h-80 xl:w-[550px]'>
-      <img className='w-fit h-40 sm:h-80 md:h-48 lg:w-96 lg:h-60 xl:h-80 xl:w-[550px]' src={GambarAbout}/>
+      <img className='object-cover w-fit h-40 sm:h-80 md:h-48 lg:w-96 lg:h-60 xl:h-80 xl:w-[550px]' src={GambarAbout}/>
       </div>
       <div className='mx-auto mb-12 text-justify px-7 sm:px-10 '>
         <ul>

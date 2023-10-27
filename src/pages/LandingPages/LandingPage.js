@@ -4,8 +4,9 @@ import { Carousel } from 'flowbite-react'
 const LandingPage = () => {
   return (
    <>
+   
    <main className='h-full w-full'>
-    <div className='aspect-video w-full'>
+    <div className='aspect-video w-full '>
     <Carousel className='-z-50' slideInterval={5000}>
     <div className="relative -z-50 mb-10 sm:mb-14 lg:mb-20">
         <img

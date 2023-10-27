@@ -1,5 +1,4 @@
 import React from "react";
-import "./Footer.css";
 import "../../../../node_modules/font-awesome/css/font-awesome.min.css";
 import Logo from "../../../assets/logo.png";
 

@@ -1,8 +1,11 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
+import { dataScania } from "../../data";
 
 const CardSquare = () => {
   const navigate = useNavigate();
+
+
   return (
     <>
       <div className="uppercase text-center mt-16 mb-2 sm:mb-1">

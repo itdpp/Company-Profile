@@ -1,6 +1,6 @@
 import React from "react";
 import BackgroundOverlay from "../../components/Fragments/BackgroundOverlay";
-import { dataCareer } from "../../data";
+import { dataCareer, gambarAtas } from "../../data";
 
 const Career = () => {
   const data = "Career";
@@ -45,7 +45,8 @@ const Career = () => {
 
   return (
     <>
-      <BackgroundOverlay content={data} />
+  
+      <BackgroundOverlay content={data} gambar={gambarAtas[0].career} />
       {_renderCareer()}
     </>
   );

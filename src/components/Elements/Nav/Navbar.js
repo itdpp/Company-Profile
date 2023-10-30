@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className=" bg-slate-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow-md">
+      <nav className=" fixed w-full top-0 z-40 bg-slate-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow-md">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" class="flex items-center">
             <img src={Logo} class="h-16" alt=" Logo" />
@@ -65,7 +65,7 @@ export const Navbar = () => {
               </button>
               {isAboutDropdownOpen && (
                 <div className="absolute font-normal bg-white divide-y divide-gray-100 rounded-md shadow w-44">
-                  <a href="/values" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
+                  {/* <a href="/values" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
                     Values
                   </a>
                   <a href="/vision" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
@@ -73,7 +73,7 @@ export const Navbar = () => {
                   </a>
                   <a href="/tagline" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
                     Tagline
-                  </a>
+                  </a> */}
                   <a href="/awards" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
                     Milestone & Awards
                   </a>
@@ -83,12 +83,18 @@ export const Navbar = () => {
                 </div>
               )}
             </div>
+            <a
+              href="/industries"
+              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            >
+              Our Business  
+            </a>
             <div className="group inline-block relative" onMouseEnter={handleProductsMouseEnter} onMouseLeave={handleMouseLeave}>
               <button
                 onClick={() => navigate("/product")}
                 className="flex items-center justify-between w-full py-2 pl-3 pr-4  text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
               >
-                Products
+                Products Support
                 <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
                   <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
                 </svg>
@@ -107,24 +113,13 @@ export const Navbar = () => {
                 </div>
               )}
             </div>
-            <a
-              href="/industries"
-              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-            >
-              Industries
-            </a>
-            <a
-              href="/contact"
-              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
-            >
-              Contact
-            </a>
-            <a
+            
+            {/* <a
               href="/ournetwork"
               class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
               Our Network
-            </a>
+            </a> */}
             <a
               href="/career"
               class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
@@ -136,6 +131,18 @@ export const Navbar = () => {
               class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
             >
               News
+            </a>
+            <a
+              href="programcsr"
+              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            >
+              Program CSR
+            </a>
+            <a
+              href="/contact"
+              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            >
+              Contact
             </a>
           </div>
         </div>

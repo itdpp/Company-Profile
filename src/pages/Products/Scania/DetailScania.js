@@ -1,6 +1,7 @@
 import React from "react";
 import TitleTop from "../../../components/Fragments/TitleTop";
 import BackgroundOverlay from "../../../components/Fragments/BackgroundOverlay";
+import { gambarAtas } from "../../../data";
 // import { useNavigate } from "react-router-dom";
 
 export const DetailScania = () => {
@@ -9,7 +10,7 @@ export const DetailScania = () => {
   return (
     <>
       <TitleTop content={judul} />
-      <BackgroundOverlay content={judul} />
+      <BackgroundOverlay content={judul} gambar={gambarAtas[0].truck} />
 
       <div className="grid grid-cols-1 md:grid-cols-2  md:-space-x-0 lg:-space-x-5 xl:-space-x-18">
         <div className="px-12 pt-16 mx-auto grid gap-y-5 md:w-[370px] md:h-[370px] md:px-0 md:p-0 md:block lg:w-[480px] lg:h-[480px] lg:p-3 xl:px-0 2xl:w-[600px] 2xl:h-[600px] ">

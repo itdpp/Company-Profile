@@ -6,9 +6,9 @@ export const Products = () => {
 
     <main className='w-full h-auto mx-auto'>
       {/* judul  */}
-      <div className='hidden lg:block lg:pl-16 xl:pl-[200px]'>
+      {/* <div className='hidden lg:block lg:pl-16 xl:pl-[200px]'>
         <h2 className='text-4xl font-medium p-4 lg:text-[40px] xl:py-5'>Products</h2>
-      </div>
+      </div> */}
       {/*background overlay judul */}
       <div className="relative -z-50 mb-10 sm:mb-14 lg:mb-20">
         <img

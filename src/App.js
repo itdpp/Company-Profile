@@ -24,6 +24,7 @@ import Industries from "./pages/Industries/Industries";
 import Career from "./pages/Career/Career";
 import OurNetwork from "./pages/OurNetwork/OurNetwork";
 import NotFound from "./pages/NotFound";
+import ProgramCSR from "./pages/ProgramCSR/ProgramCSR";
 
 function App() {
   return (
@@ -42,7 +43,7 @@ function App() {
           {/* <Route path="/vision" element={<VisionMissions />} /> */}
           <Route path="/detailscania" element={<DetailScania />} />
           <Route path="/productscania" element={<ProductScania />} />
-          <Route path="/typescania" element={<TypeScania />} />
+          <Route path="/typescania/:id" element={<TypeScania />} />
           <Route path="/typescaniafuel" element={<TypeScaniaFuel />} />
           <Route path="/typescaniavessel" element={<TypeScaniaVessel />} />
           <Route path="/productpatria" element={<ProductPatria />} />
@@ -53,6 +54,7 @@ function App() {
           <Route path="/industries" element={<Industries />} />
           <Route path="/career" element={<Career />} />
           <Route path="/ournetwork" element={<OurNetwork />} />
+          <Route path="/programcsr" element={<ProgramCSR />} />
           <Route path="/*" element={<NotFound />} />
         </Routes>
       </Router>

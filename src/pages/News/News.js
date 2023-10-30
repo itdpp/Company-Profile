@@ -1,6 +1,6 @@
 import React from "react";
 import BackgroundOverlay from "../../components/Fragments/BackgroundOverlay";
-import { dataNews } from "../../data";
+import { dataNews, gambarAtas } from "../../data";
 import { Link } from "react-router-dom";
 
 export const News = () => {
@@ -52,7 +52,7 @@ export const News = () => {
 
   return (
     <main className="w-full h-full justify-center">
-      <BackgroundOverlay content={data} />
+      <BackgroundOverlay content={data} gambar={gambarAtas[0].news} />
       {/* card news  */}
       <div className=" mx-auto p-3 sm:flex sm:flex-wrap sm:gap-6 sm:justify-center">
         {_renderNews()}

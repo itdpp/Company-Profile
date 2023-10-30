@@ -8,7 +8,7 @@ const LandingPage = () => {
    <main className='h-full w-full'>
     <div className='aspect-video w-full '>
     <Carousel className='-z-50' slideInterval={5000}>
-    <div className="relative -z-50 mb-10 sm:mb-14 lg:mb-20">
+    <div className="relative -z-50 mb-10 sm:mb-14">
         <img
           src="https://products.unitedtractors.com/wp-content/uploads/2022/03/MicrosoftTeams-image-24.jpg"
           alt="Product"
@@ -21,7 +21,7 @@ const LandingPage = () => {
           </h1>
         </div>
       </div>
-      <div className="relative -z-50 mb-10 sm:mb-14 lg:mb-20">
+      <div className="relative -z-50 mb-10 sm:mb-14">
         <img
           src="https://products.unitedtractors.com/wp-content/uploads/2022/03/MicrosoftTeams-image-24.jpg"
           alt="Product"
@@ -36,7 +36,7 @@ const LandingPage = () => {
       </div>
     </Carousel>
     </div>
-    <div className='mx-4'>
+    <div className='mx-4  md:mx-28 lg:mx-32'>
         <p><span className='font-bold text-md '>PT. United Equipment Indonesia (UNIQUIP) </span>was established in 2005 and recognised as one of the leading dealers of heavy equipment in Indonesia offering wide range of services including sales, parts and technical support.</p>
         <p className='mt-8'>We specialise in the supply of genuine products and after market support of leading premium brands such as Hyundai, Tonly, Redline by Dynapac, Rokbak, Zoomlion, Genie, Gehl, Pramac and Sinomach Changlin.</p>
     </div>

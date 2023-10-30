@@ -17,7 +17,9 @@ export const TypeScania = () => {
   );
   
 
-  const halo = () => {
+  const CardSquare = () => {
+
+    const firstType = scaniaItem.type[0];
     return (
       <>
         {scaniaItem.type.map((typescania, index) => {
@@ -35,7 +37,7 @@ export const TypeScania = () => {
 
               <div className="mx-auto w-full p-3 sm:grid sm:px-28 sm:grid-cols-1 sm:justify-center md:flex md:flex-wrap md:justify-center md:px-0 lg:px-0 xl:px-10 2xl:px-">
                 
-                {typescania.map((product,index) => {
+                {firstType.typeproduct.map((product,index) => {
                   return (
                     <div key={index}
                       onClick={() => navigate("/detailscania")}
@@ -69,8 +71,8 @@ export const TypeScania = () => {
       <TitleTop content={typeScania.name} />
       <LogoTop />
       <TextDescription content={typeScania.desc} />
-      <CardSquare />
-      {/* {halo()} */}
+      {/* <CardSquare /> */}
+      {CardSquare()}
     </>
   );
 };

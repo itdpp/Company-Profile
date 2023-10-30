@@ -1,7 +1,9 @@
 //gambar
+// import "../src/assets/About/gambar.jpg"
 
 export const gambarAtas = [
   {
+    about:"https://media.licdn.com/dms/image/C5622AQHQqQfBNell9g/feedshare-shrink_800/0/1677568749609?e=2147483647&v=beta&t=yRB0EgN6fr5PVvOOaGky4-t5iGwm-p2_OqzpYARmsPs",
     product:
       "https://www.dpp.co.id/wp-content/uploads/2022/02/Hnet.com-image-edited-e1644381744699.png",
     industries:"https://www.dpp.co.id/wp-content/uploads/2022/02/Hnet.com-image-edited-e1644381744699.png",
@@ -9,6 +11,7 @@ export const gambarAtas = [
     ournetwork:"https://www.dpp.co.id/wp-content/uploads/2022/02/Hnet.com-image-6-1024x682.jpg",
     career:"https://www.dpp.co.id/wp-content/uploads/2022/04/IMG_6359.jpg",
     news:"https://www.dpp.co.id/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-27-at-2.02.55-PM.jpeg",
+    csr:"https://www.dpp.co.id/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-27-at-2.02.55-PM.jpeg",
     truck:"https://products.unitedtractors.com/wp-content/uploads/2022/03/MicrosoftTeams-image-24.jpg"
     },
 ];
@@ -52,11 +55,239 @@ export const dataScania = [
         id: 2,
         name: "Dump Vessel",
         img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
+        desc: "Hyundai is a well-known heavy equipment brand from South Korea. Over the years, Hyundai has strengthened its position as one of the leading heavy equipment manufacturers in the world by producing reliable and high-quality products. Additionally, Hyundai has a wide distribution network that enables customers to easily access its latest products. With a commitment to quality, innovation, and excellent service, Hyundai continues to build its reputation as a trusted brand in the heavy equipment industry.",
+        typeproduct: [
+          {
+            id: 1,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-Tqweqe",
+          },
+          {
+            id: 2,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TC",
+          },
+          {
+            id: 3,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TB",
+          },
+          {
+            id: 4,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TP",
+          },
+        ],
       },
       {
         id: 3,
         name: "Fuel Truck",
         img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
+        desc: "Hyundai is a well-known heavy equipment brand from South Korea. Over the years, Hyundai has strengthened its position as one of the leading heavy equipment manufacturers in the world by producing reliable and high-quality products. Additionally, Hyundai has a wide distribution network that enables customers to easily access its latest products. With a commitment to quality, innovation, and excellent service, Hyundai continues to build its reputation as a trusted brand in the heavy equipment industry.",
+        typeproduct: [
+          {
+            id: 1,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-T",
+          },
+          {
+            id: 2,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TC",
+          },
+          {
+            id: 3,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TB",
+          },
+          {
+            id: 4,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TP",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 2 ,
+    name: "Scania",
+    logo: "https://www.carlogos.org/logo/Scania-logo-6200x1800.png",
+    type: [
+      {
+        id: 1,
+        name: "Dump Truck",
+        img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
+        desc: "Hyundai is a well-known heavy equipment brand from South Korea. Over the years, Hyundai has strengthened its position as one of the leading heavy equipment manufacturers in the world by producing reliable and high-quality products. Additionally, Hyundai has a wide distribution network that enables customers to easily access its latest products. With a commitment to quality, innovation, and excellent service, Hyundai continues to build its reputation as a trusted brand in the heavy equipment industry.",
+        typeproduct: [
+          {
+            id: 1,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-T",
+          },
+          {
+            id: 2,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TC",
+          },
+          {
+            id: 3,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TB",
+          },
+          {
+            id: 4,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TP",
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: "Dump Vessel",
+        img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
+        desc: "Hyundai is a well-known heavy equipment brand from South Korea. Over the years, Hyundai has strengthened its position as one of the leading heavy equipment manufacturers in the world by producing reliable and high-quality products. Additionally, Hyundai has a wide distribution network that enables customers to easily access its latest products. With a commitment to quality, innovation, and excellent service, Hyundai continues to build its reputation as a trusted brand in the heavy equipment industry.",
+        typeproduct: [
+          {
+            id: 1,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-Tqweqe",
+          },
+          {
+            id: 2,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TC",
+          },
+          {
+            id: 3,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TB",
+          },
+          {
+            id: 4,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TP",
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: "Fuel Truck",
+        img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
+        desc: "Hyundai is a well-known heavy equipment brand from South Korea. Over the years, Hyundai has strengthened its position as one of the leading heavy equipment manufacturers in the world by producing reliable and high-quality products. Additionally, Hyundai has a wide distribution network that enables customers to easily access its latest products. With a commitment to quality, innovation, and excellent service, Hyundai continues to build its reputation as a trusted brand in the heavy equipment industry.",
+        typeproduct: [
+          {
+            id: 1,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-T",
+          },
+          {
+            id: 2,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TC",
+          },
+          {
+            id: 3,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TB",
+          },
+          {
+            id: 4,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TP",
+          },
+        ],
+      },
+    ],
+  },
+  {
+    id: 3,
+    name: "Scania",
+    logo: "https://www.carlogos.org/logo/Scania-logo-6200x1800.png",
+    type: [
+      {
+        id: 1,
+        name: "Dump Truck",
+        img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
+        desc: "Hyundai is a well-known heavy equipment brand from South Korea. Over the years, Hyundai has strengthened its position as one of the leading heavy equipment manufacturers in the world by producing reliable and high-quality products. Additionally, Hyundai has a wide distribution network that enables customers to easily access its latest products. With a commitment to quality, innovation, and excellent service, Hyundai continues to build its reputation as a trusted brand in the heavy equipment industry.",
+        typeproduct: [
+          {
+            id: 1,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-T",
+          },
+          {
+            id: 2,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TC",
+          },
+          {
+            id: 3,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TB",
+          },
+          {
+            id: 4,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TP",
+          },
+        ],
+      },
+      {
+        id: 2,
+        name: "Dump Vessel",
+        img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
+        desc: "Hyundai is a well-known heavy equipment brand from South Korea. Over the years, Hyundai has strengthened its position as one of the leading heavy equipment manufacturers in the world by producing reliable and high-quality products. Additionally, Hyundai has a wide distribution network that enables customers to easily access its latest products. With a commitment to quality, innovation, and excellent service, Hyundai continues to build its reputation as a trusted brand in the heavy equipment industry.",
+        typeproduct: [
+          {
+            id: 1,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-Tqweqe",
+          },
+          {
+            id: 2,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TC",
+          },
+          {
+            id: 3,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TB",
+          },
+          {
+            id: 4,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TP",
+          },
+        ],
+      },
+      {
+        id: 3,
+        name: "Fuel Truck",
+        img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
+        desc: "Hyundai is a well-known heavy equipment brand from South Korea. Over the years, Hyundai has strengthened its position as one of the leading heavy equipment manufacturers in the world by producing reliable and high-quality products. Additionally, Hyundai has a wide distribution network that enables customers to easily access its latest products. With a commitment to quality, innovation, and excellent service, Hyundai continues to build its reputation as a trusted brand in the heavy equipment industry.",
+        typeproduct: [
+          {
+            id: 1,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-T",
+          },
+          {
+            id: 2,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TC",
+          },
+          {
+            id: 3,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TB",
+          },
+          {
+            id: 4,
+            img: "https://products.unitedtractors.com/wp-content/uploads/2021/04/P_410_B8x4HZ-1.png",
+            nameproduct: "Dump Truck H3200-TP",
+          },
+        ],
       },
     ],
   },
@@ -204,6 +435,17 @@ export const dataIndustries = [
     img2: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Perhutanan-3-768x768.jpg",
     img3: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Industri-2-768x768.jpg",
     desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, PT Dian Pandu Pratama berinisiatif melakukan proses sertifikasi kepada seluruh karyawan welder untuk dapat meningkatkan kompetensi serta memiliki daya saing yang tinggi. Pelaksanaan sertifikasi ini dilakukan dengan cara bekerja sama dengan LSP IMABI (Industri Manufaktur Alat Berat Indonesia) yang memiliki skema Okupasi Welder yang telah mencakup semua kebutuhan PT Dian Pandu Pratama.Pelaksanaan sertifikasi ini juga diselenggarakan bersama dengan pelatihan yang dilakukan langsung oleh trainer-trainer dari PT Dian Pandu Pratama sehingga proses pelaksanaan sertifikasi dapat berjalan sesuai dengan yang diinginkan PT Dian Pandu Pratama. Dalam melaksanakan proses sertifikasi ini, tidak hanya area job site saja yang diberikan namun area Plant Cikarang juga diberikan. Pelaksanaan ini telah sukses mencetak certified welder sebanyak 204 karyawan sehingga telah menambahkan ",
+  },
+];
+export const dataCsr = [
+  {
+    id: 1,
+    judul: "Manufacturing Process",
+    img: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-3-1-768x768.jpg",
+    img1: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-5-1-768x768.jpg",
+    img2: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Perhutanan-3-768x768.jpg",
+    img3: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Industri-2-768x768.jpg",
+    desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, PT Dian Pandu Pratama berinisiatif melakukan proses sertifikasi kepada seluruh karyawan welder untuk D meningkatkan kompetensi serta memiliki daya saing yang tinggi. Pelaksanaan sertifikasi ini dilakukan dengan cara bekerja sama dengan LSP IMABI (Industri Manufaktur Alat Berat Indonesia) yang memiliki skema Okupasi Welder yang telah mencakup semua kebutuhan PT Dian Pandu Pratama.Pelaksanaan sertifikasi ini juga diselenggarakan bersama dengan pelatihan yang dilakukan langsung oleh trainer-trainer dari PT Dian Pandu Pratama sehingga proses pelaksanaan sertifikasi dapat berjalan sesuai dengan yang diinginkan PT Dian Pandu Pratama. Dalam melaksanakan proses sertifikasi ini, tidak hanya area job site saja yang diberikan namun area Plant Cikarang juga diberikan. Pelaksanaan ini telah sukses mencetak certified welder sebanyak 204 karyawan sehingga telah menambahkan",
   },
 ];
 

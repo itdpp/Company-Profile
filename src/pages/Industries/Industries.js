@@ -6,53 +6,40 @@ import { dataIndustries, gambarAtas } from "../../data";
 const Industries = () => {
   const data = "Industries";
 
-  const _rendersindustries = ()=>{
-   return (
-    <>
-      {dataIndustries.map((industries)=>{
-        return(
-        <>
-        <div className="px-3 align-top md:grid md:grid-cols-2 md:-mt-20 md:p-4 lg:px-20 lg:flex lg:flex-row lg:justify-center ">
-        <div className="p-3 w-full h-full aspect-square md:p-10 lg:w-[40%] xl:w-[30%]">
-            <Carousel>
-              <img
-                alt="12312"
-                src={industries.img}
-              />
-              <img
-                alt="12312"
-                src={industries.img1}
-              />
-              <img
-                alt="12312"
-                src={industries.img2}
-              />
-              <img
-                alt="12312"
-                src={industries.img3}
-              />
-            </Carousel>
-          </div>
-          <div className="px-4 md:p-4 lg:w-[60%]">
-            <p className="uppercase font-semibold text-2xl my-4 ">{industries.judul}</p>
-            <p className="mb-4 ">
-              {industries.desc}
-            </p>
-          </div>
-          </div>
-        </>
-        )
-      })}
-    </>
-   )
-  }
+  const _rendersindustries = () => {
+    return (
+      <>
+        {dataIndustries.map((industries) => {
+          return (
+            <>
+              <div className="px-3 align-top md:grid md:grid-cols-2 md:-mt-20 md:p-4 lg:px-20 lg:flex lg:flex-row lg:justify-center ">
+                <div className="p-3 w-full h-full aspect-square md:p-10 lg:w-[40%] xl:w-[30%]">
+                  <Carousel>
+                    <img alt="12312" src={industries.img} />
+                    <img alt="12312" src={industries.img1} />
+                    <img alt="12312" src={industries.img2} />
+                    <img alt="12312" src={industries.img3} />
+                  </Carousel>
+                </div>
+                <div className="px-4 md:p-4 lg:w-[60%]">
+                  <p className="uppercase font-semibold text-2xl my-4 ">
+                    {industries.judul}
+                  </p>
+                  <p className="mb-4 ">{industries.desc}</p>
+                </div>
+              </div>
+            </>
+          );
+        })}
+      </>
+    );
+  };
   return (
     <>
       <BackgroundOverlay content={data} gambar={gambarAtas[0].industries} />
 
       <div>
-        
-          {_rendersindustries()}
+        {_rendersindustries()}
 
         {/* <div className="px-3 align-top md:grid md:grid-cols-2 md:-mt-20 md:p-4 lg:px-20 lg:flex lg:flex-row lg:justify-center ">
           <div className="p-3 w-full h-full aspect-square md:p-10 lg:w-[40%] xl:w-[30%]">

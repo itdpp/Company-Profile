@@ -23,7 +23,7 @@ export const dataProduct = [
       {
         id: 3,
         name: "Fuel Truck",
-        img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
+         img: "https://www.uniquip.co.id/wp-content/uploads/2023/01/HYUNDAI-1-768x512.jpg",
       },
     ],
   },

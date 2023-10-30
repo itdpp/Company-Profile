@@ -35,11 +35,11 @@ function App() {
           <Route path="/product" element={<Products />} />
           <Route path="/productscania" element={<ProductScania />} />
           <Route path="/detailscania" element={<DetailScania />} />
-          <Route path="/Values" element={<AboutValues />} />
+          {/* <Route path="/Values" element={<AboutValues />} /> */}
           <Route path="/board" element={<Board />} />
           <Route path="/awards" element={<MilestoneAward />} />
-          <Route path="/tagline" element={<Taglines />} />
-          <Route path="/vision" element={<VisionMissions />} />
+          {/* <Route path="/tagline" element={<Taglines />} /> */}
+          {/* <Route path="/vision" element={<VisionMissions />} /> */}
           <Route path="/detailscania" element={<DetailScania />} />
           <Route path="/productscania" element={<ProductScania />} />
           <Route path="/typescania" element={<TypeScania />} />

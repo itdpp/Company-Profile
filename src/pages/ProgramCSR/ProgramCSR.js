@@ -32,17 +32,19 @@ const ProgramCSR = () => {
       <BackgroundOverlay gambar={gambarAtas[0].csr} content={data} />
 
       <div className="">
-        <p className="text-3xl text-center font-semibold text-gray-700  px-0 py-3 my-3">
+      <h2 class="mb-8 lg:mb-10 text-3xl font-bold tracking-tight leading-tight text-center text-gray-900 dark:text-white md:text-4xl">
           Our Mission
+        </h2>
+        <div className=" mx-auto text-center px-5 lg:w-[80%] lg:mb-10 lg:px-0">
+        <p className="lg:font-normal lg:text-2xl text-center">
+          Dalam menjalankan bisnis, kami fokus pada dua sektor ketenagakerjaan
+          yaitu penyedia tenaga kerja (Manpower Support) serta penyedia jasa
+          fabrikasi dan perbaikan kendaraan alat berat (Manufacturing Process &
+          Fabrication Project). Di samping itu kami juga mengembangkan pada
+          manpower certification serta memperluas jejaring dengan memberikan
+          project pembangunan di konstruksi alat berat.
         </p>
-        <p className="mx-auto text-lg text-justify px-2 lg:w-[1000px] mb-0">
-          Dalam memajukan masyarakat sekitar perusahaan, PT Dian Pandu Pratama
-          komit untuk melakukan program Corporate Social Responsibility (CSR) di
-          sekitar ring 1 dan juga daerah Kota Bekasi. CSR PT Dian Pandu Pratama
-          memiliki 4 pilar (DPP Care, DPP Health, DPP Education, dan DPP Green)
-          yang bertujuan untuk memajukan daerah berdasarkan kebutuhan masyarakat
-          sekitar.
-        </p>
+      </div>
       </div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 lg:w-[1000px] mx-auto">

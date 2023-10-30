@@ -407,7 +407,7 @@ export const dataIndustries = [
     img1: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-5-1-768x768.jpg",
     img2: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Perhutanan-3-768x768.jpg",
     img3: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Industri-2-768x768.jpg",
-    desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, PT Dian Pandu Pratama berinisiatif melakukan proses sertifikasi kepada seluruh karyawan welder untuk D meningkatkan kompetensi serta memiliki daya saing yang tinggi. Pelaksanaan sertifikasi ini dilakukan dengan cara bekerja sama dengan LSP IMABI (Industri Manufaktur Alat Berat Indonesia) yang memiliki skema Okupasi Welder yang telah mencakup semua kebutuhan PT Dian Pandu Pratama.Pelaksanaan sertifikasi ini juga diselenggarakan bersama dengan pelatihan yang dilakukan langsung oleh trainer-trainer dari PT Dian Pandu Pratama sehingga proses pelaksanaan sertifikasi dapat berjalan sesuai dengan yang diinginkan PT Dian Pandu Pratama. Dalam melaksanakan proses sertifikasi ini, tidak hanya area job site saja yang diberikan namun area Plant Cikarang juga diberikan. Pelaksanaan ini telah sukses mencetak certified welder sebanyak 204 karyawan sehingga telah menambahkan",
+    desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi",
   },
   {
     id: 2,
@@ -416,8 +416,7 @@ export const dataIndustries = [
     img1: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-5-1-768x768.jpg",
     img2: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Perhutanan-3-768x768.jpg",
     img3: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Industri-2-768x768.jpg",
-    desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, PT Dian Pandu Pratama berinisiatif melakukan proses sertifikasi kepada seluruh karyawan welder untuk dapat meningkatkan kompetensi serta memiliki daya saing yang tinggi. Pelaksanaan sertifikasi ini dilakukan dengan cara bekerja sama dengan LSP IMABI (Industri Manufaktur Alat Berat Indonesia) yang memiliki skema Okupasi Welder yang telah mencakup semua kebutuhan PT Dian Pandu Pratama.Pelaksanaan sertifikasi ini juga diselenggarakan bersama dengan pelatihan yang dilakukan langsung oleh trainer-trainer dari PT Dian Pandu Pratama sehingga proses pelaksanaan sertifikasi dapat berjalan sesuai dengan yang diinginkan PT Dian Pandu Pratama. Dalam melaksanakan proses sertifikasi ini, tidak hanya area job site saja yang diberikan namun area Plant Cikarang juga diberikan. Pelaksanaan ini telah sukses mencetak certified welder sebanyak 204 karyawan sehingga telah menambahkan ",
-  },
+    desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, " },
   {
     id: 3,
     judul: "Welder Certification",
@@ -425,8 +424,7 @@ export const dataIndustries = [
     img1: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-5-1-768x768.jpg",
     img2: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Perhutanan-3-768x768.jpg",
     img3: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Industri-2-768x768.jpg",
-    desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, PT Dian Pandu Pratama berinisiatif melakukan proses sertifikasi kepada seluruh karyawan welder untuk dapat meningkatkan kompetensi serta memiliki daya saing yang tinggi. Pelaksanaan sertifikasi ini dilakukan dengan cara bekerja sama dengan LSP IMABI (Industri Manufaktur Alat Berat Indonesia) yang memiliki skema Okupasi Welder yang telah mencakup semua kebutuhan PT Dian Pandu Pratama.Pelaksanaan sertifikasi ini juga diselenggarakan bersama dengan pelatihan yang dilakukan langsung oleh trainer-trainer dari PT Dian Pandu Pratama sehingga proses pelaksanaan sertifikasi dapat berjalan sesuai dengan yang diinginkan PT Dian Pandu Pratama. Dalam melaksanakan proses sertifikasi ini, tidak hanya area job site saja yang diberikan namun area Plant Cikarang juga diberikan. Pelaksanaan ini telah sukses mencetak certified welder sebanyak 204 karyawan sehingga telah menambahkan ",
-  },
+    desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, "  },
   {
     id: 4,
     judul: "Fabrication Project",
@@ -434,8 +432,7 @@ export const dataIndustries = [
     img1: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-5-1-768x768.jpg",
     img2: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Perhutanan-3-768x768.jpg",
     img3: "https://www.uniquip.co.id/wp-content/uploads/2023/02/Industri-2-768x768.jpg",
-    desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, PT Dian Pandu Pratama berinisiatif melakukan proses sertifikasi kepada seluruh karyawan welder untuk dapat meningkatkan kompetensi serta memiliki daya saing yang tinggi. Pelaksanaan sertifikasi ini dilakukan dengan cara bekerja sama dengan LSP IMABI (Industri Manufaktur Alat Berat Indonesia) yang memiliki skema Okupasi Welder yang telah mencakup semua kebutuhan PT Dian Pandu Pratama.Pelaksanaan sertifikasi ini juga diselenggarakan bersama dengan pelatihan yang dilakukan langsung oleh trainer-trainer dari PT Dian Pandu Pratama sehingga proses pelaksanaan sertifikasi dapat berjalan sesuai dengan yang diinginkan PT Dian Pandu Pratama. Dalam melaksanakan proses sertifikasi ini, tidak hanya area job site saja yang diberikan namun area Plant Cikarang juga diberikan. Pelaksanaan ini telah sukses mencetak certified welder sebanyak 204 karyawan sehingga telah menambahkan ",
-  },
+    desc: "Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat dan demand terkait welder di area job site sangat tinggi, "  },
 ];
 export const dataCsr = [
   {

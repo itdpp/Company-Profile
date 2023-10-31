@@ -5,7 +5,6 @@ import Logo from "../../../assets/logo.png";
 export const Footer = () => {
   return (
     <>
-
       {/* ======================== */}
 
       <footer class="bg-slate-50 mt-20 dark:bg-gray-900">
@@ -15,9 +14,21 @@ export const Footer = () => {
               <a href="/landingpage" class="">
                 <img src={Logo} class="mr-3 mb-4 w-64 h-auto" alt="logo" />
                 <p className="text-justify sm:w-[70%] sm:ml-4 text-base text-gray-600 font-normal">
-                PT Dian Pandu Pratama adalah perusahaan yang berdiri sejak tahun 2012 dan bergerak dalam bidang Job & Labour Supply. Manpower kami telah tersebar di berbagai daerah Kalimantan & Sumatera dengan jumlah lebih dari 1700.
+                  PT Dian Pandu Pratama adalah perusahaan  bergerak dalam bidang Job & Labour Supply.
                 </p>
-                
+                <p className="text-justify mt-2 sm:w-[70%] sm:ml-4 text-base text-gray-600 font-semibold">
+                  Jam Operational DPP :
+                  <span className="font-normal">
+                    <ul className="list-disc ml-5">
+                      <li>
+                        Office (Senin-Jumat): 7.30-16.30 (Jumat selesai pukul
+                        17.00)
+                      </li>
+                      <li>Plant operation (Sabtu-Minggu): 7.30-15.30</li>
+                      <li>Area site mengikuti regulasi lokal.</li>
+                    </ul>
+                  </span>
+                </p>
               </a>
             </div>
 
@@ -30,43 +41,28 @@ export const Footer = () => {
                 </h2>
                 <ul class=" text-gray-600 font-normal  dark:text-gray-400">
                   <li class="mb-4">
-                    <a
-                      href="/about"
-                      class="hover:underline "
-                    >
-                     Our Network
+                    <a href="/about" class="hover:underline ">
+                      Our Network
                     </a>
                   </li>
-                  <li  class="mb-4">
-                    <a
-                      href="/product"
-                      class="hover:underline"
-                    >
+                  <li class="mb-4">
+                    <a href="/product" class="hover:underline">
                       Product
                     </a>
                   </li>
-                  <li  class="mb-4">
-                    <a
-                      href="/career"
-                      class="hover:underline"
-                    >
+                  <li class="mb-4">
+                    <a href="/career" class="hover:underline">
                       Career
                     </a>
                   </li>
-                  <li  class="mb-4">
-                    <a
-                      href="/contact"
-                      class="hover:underline"
-                    >
-                       Contact
+                  <li class="mb-4">
+                    <a href="/contact" class="hover:underline">
+                      Contact
                     </a>
                   </li>
-                  <li  class="mb-4">
-                    <a
-                      href="/news"
-                      class="hover:underline"
-                    >
-                       News
+                  <li class="mb-4">
+                    <a href="/news" class="hover:underline">
+                      News
                     </a>
                   </li>
                 </ul>

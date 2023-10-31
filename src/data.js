@@ -14,6 +14,18 @@ export const gambarAtas = [
     csr:"https://www.dpp.co.id/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-27-at-2.02.55-PM.jpeg",
     truck:"https://products.unitedtractors.com/wp-content/uploads/2022/03/MicrosoftTeams-image-24.jpg"
     },
+  {
+    about:"https://media.licdn.com/dms/image/C5622AQHQqQfBNell9g/feedshare-shrink_800/0/1677568749609?e=2147483647&v=beta&t=yRB0EgN6fr5PVvOOaGky4-t5iGwm-p2_OqzpYARmsPs",
+    product:
+      "https://www.dpp.co.id/wp-content/uploads/2022/02/Hnet.com-image-edited-e1644381744699.png",
+    industries:"https://www.dpp.co.id/wp-content/uploads/2022/02/Hnet.com-image-edited-e1644381744699.png",
+    contact2:"https://www.dpp.co.id/wp-content/uploads/2022/02/MP-Site-1024x573.png",
+    ournetwork:"https://www.dpp.co.id/wp-content/uploads/2022/02/Hnet.com-image-6-1024x682.jpg",
+    career:"https://www.dpp.co.id/wp-content/uploads/2022/04/IMG_6359.jpg",
+    news:"https://www.dpp.co.id/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-27-at-2.02.55-PM.jpeg",
+    csr:"https://www.dpp.co.id/wp-content/uploads/2022/04/WhatsApp-Image-2022-04-27-at-2.02.55-PM.jpeg",
+    truck:"https://products.unitedtractors.com/wp-content/uploads/2022/03/MicrosoftTeams-image-24.jpg"
+    },
 ];
 
 // PRODUCT SCANIA

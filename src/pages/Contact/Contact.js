@@ -8,6 +8,7 @@ export const Contact = () => {
   return (
     <>
       <BackgroundOverlay content={data} gambar={gambarAtas[0].contact} />
+      
 
       <div className="md:grid md:grid-cols-2 md:px-12 lg:px-20 xl:px-44 2xl:px-60">
         <div className="px-6 md:pt-10 lg:pt-10">

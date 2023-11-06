@@ -7,7 +7,7 @@ export const Footer = () => {
     <>
       {/* ======================== */}
 
-      <footer class="bg-slate-50 mt-20 dark:bg-gray-900">
+      <footer class="bg-slate-50  dark:bg-gray-900">
         <div class="mx-auto w-full p-4 py-6 lg:py-8 justify-between">
           <div class="md:flex md:justify-between md:mx-3">
             <div class="mb-6 md:mb-0 md:w-[50%]">
@@ -25,7 +25,7 @@ export const Footer = () => {
                         17.00)
                       </li>
                       <li>Plant operation (Sabtu-Minggu): 7.30-15.30</li>
-                      <li>Area site mengikuti regulasi lokal.</li>
+                      {/* <li>Area site mengikuti regulasi lokal.</li> */}
                     </ul>
                   </span>
                 </p>

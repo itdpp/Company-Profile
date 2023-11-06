@@ -1,6 +1,7 @@
 import React from "react";
 import BackgroundOverlay from "../../components/Fragments/BackgroundOverlay";
 import { gambarAtas } from "../../data";
+import { background1 } from "../../assets";
 
 export const Products = () => {
   return (
@@ -43,7 +44,7 @@ export const Products = () => {
             <div className="mx-auto w-full p-3 sm:grid sm:px-10 sm:grid-cols-1 sm:justify-center md:flex md:flex-wrap md:px-0 lg:px-0 ">
               <div className="px-4 text-black text-left mb-4 sm:mb-12 md:w-64 lg:w-80 xl:w-96  ">
                 <img
-                  src="https://www.dpp.co.id/wp-content/uploads/2022/02/Dump-Vessel-20.png"
+                  src={background1}
                   alt="product"
                   className="w-full h-full aspect-video bg-cover hover:scale-105 transition-transform duration-300 transform"
                 />

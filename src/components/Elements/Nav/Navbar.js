@@ -29,7 +29,7 @@ export const Navbar = () => {
 
   return (
     <>
-      <nav className=" fixed w-full top-0 z-40 bg-slate-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow-md">
+      <nav className=" fixed w-full top-0 z-40 bg-slate-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700 ">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" class="flex items-center">
             <img src={Logo} class="h-16" alt=" Logo" />

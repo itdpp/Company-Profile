@@ -2,6 +2,25 @@ import React from "react";
 import { Carousel } from "flowbite-react";
 import BackgroundOverlay from "../../components/Fragments/BackgroundOverlay";
 import { dataIndustries, gambarAtas } from "../../data";
+import { background5 } from "../../assets";
+
+import {
+  manufacturing1,
+  manufacturing2,
+  manufacturing3,
+  manufacturing4,
+  manpower1,
+  manpower2,
+  manpower3,
+  manpower4,
+  manpower5,
+  weldertest1,
+  weldertest2,
+  weldertest3,
+  weldertest4,
+  weldertest5,
+  patria,ut,triatra,sigma,pmi,pml,pmp,pli
+} from "../../assets";
 
 const Industries = () => {
   const data = "Our Business";
@@ -37,7 +56,7 @@ const Industries = () => {
 
   return (
     <>
-      <BackgroundOverlay content={data} gambar={gambarAtas[0].industries} />
+      <BackgroundOverlay content={data} gambar={background5} />
 
       <div className=" mx-auto text-center px-5 lg:w-[80%] lg:mb-24 lg:px-0">
         <p className="lg:font-normal lg:text-2xl text-center">
@@ -52,7 +71,58 @@ const Industries = () => {
 
       <div className="grid lg:grid-cols-4  mx-auto">
         <div className="p-3 w-full h-full aspect-square lg:w-[70%] mx-auto">
-          <Carousel>
+          <Carousel indicators={false} leftControl=" " rightControl=" ">
+            <img alt="12312" src={manufacturing1} />
+            <img alt="12312" src={manufacturing2} />
+            <img alt="12312" src={manufacturing3} />
+            <img alt="12312" src={manufacturing4} />
+          </Carousel>
+          <div className="text-center">
+            <p className="uppercase font-semibold text-2xl my-4 ">
+              Manufacturing Process
+            </p>
+            <p className="mb-4 text-justify">
+              Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat
+              dan demand terkait welder di area job site sangat tinggi
+            </p>
+          </div>
+        </div>
+        <div className="p-3 w-full h-full aspect-square lg:w-[70%] mx-auto">
+          <Carousel indicators={false} leftControl=" " rightControl=" ">
+            <img alt="12312" src={manpower1} />
+            <img alt="12312" src={manpower2} />
+            <img alt="12312" src={manpower3} />
+            <img alt="12312" src={manpower4} />
+          </Carousel>
+          <div className="text-center">
+            <p className="uppercase font-semibold text-2xl my-4 ">
+              Manpower Support on Site
+            </p>
+            <p className="mb-4 text-justify ">
+              Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat
+              dan demand terkait welder di area job site sangat tinggi
+            </p>
+          </div>
+        </div>
+        <div className="p-3 w-full h-full aspect-square lg:w-[70%] mx-auto">
+          <Carousel indicators={false} leftControl=" " rightControl=" ">
+            <img alt="12312" src={weldertest5} />
+            <img alt="12312" src={weldertest1} />
+            <img alt="12312" src={weldertest4} />
+            <img alt="12312" src={weldertest3} />
+          </Carousel>
+          <div className="text-center">
+            <p className="uppercase font-semibold text-2xl my-4 ">
+              Welder Certification
+            </p>
+            <p className="mb-4 text-justify ">
+              Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat
+              dan demand terkait welder di area job site sangat tinggi
+            </p>
+          </div>
+        </div>
+        <div className="p-3 w-full h-full aspect-square lg:w-[70%] mx-auto">
+          <Carousel indicators={false} leftControl=" " rightControl=" ">
             <img
               alt="12312"
               src="https://www.dpp.co.id/wp-content/uploads/2022/02/IMG_5792-150x150.jpg"
@@ -68,93 +138,6 @@ const Industries = () => {
             <img
               alt="12312"
               src="https://www.dpp.co.id/wp-content/uploads/2023/04/Tongkang-Project-150x150.jpg"
-            />
-          </Carousel>
-          <div className="text-center">
-            <p className="uppercase font-semibold text-2xl my-4 ">
-              Manufacturing Process
-            </p>
-            <p className="mb-4 text-justify">
-              Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat
-              dan demand terkait welder di area job site sangat tinggi
-            </p>
-          </div>
-        </div>
-        <div className="p-3 w-full h-full aspect-square lg:w-[70%] mx-auto">
-          <Carousel>
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-3-1-768x768.jpg"
-            />
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-5-1-768x768.jpg"
-            />
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Perhutanan-3-768x768.jpg"
-            />
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Industri-2-768x768.jpg"
-            />
-          </Carousel>
-          <div className="text-center">
-            <p className="uppercase font-semibold text-2xl my-4 ">
-              Manpower Support on Site
-            </p>
-            <p className="mb-4 text-justify ">
-              Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat
-              dan demand terkait welder di area job site sangat tinggi
-            </p>
-          </div>
-        </div>
-        <div className="p-3 w-full h-full aspect-square lg:w-[70%] mx-auto">
-          <Carousel>
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-3-1-768x768.jpg"
-            />
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-5-1-768x768.jpg"
-            />
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Perhutanan-3-768x768.jpg"
-            />
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Industri-2-768x768.jpg"
-            />
-          </Carousel>
-          <div className="text-center">
-            <p className="uppercase font-semibold text-2xl my-4 ">
-              Welder Certification
-            </p>
-            <p className="mb-4 text-justify ">
-              Juni 2023 – Mengingat pertumbuhan karyawan yang semakin meningkat
-              dan demand terkait welder di area job site sangat tinggi
-            </p>
-          </div>
-        </div>
-        <div className="p-3 w-full h-full aspect-square lg:w-[70%] mx-auto">
-          <Carousel>
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-3-1-768x768.jpg"
-            />
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Tambang-5-1-768x768.jpg"
-            />
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Perhutanan-3-768x768.jpg"
-            />
-            <img
-              alt="12312"
-              src="https://www.uniquip.co.id/wp-content/uploads/2023/02/Industri-2-768x768.jpg"
             />
           </Carousel>
           <div className="text-center">
@@ -190,42 +173,42 @@ const Industries = () => {
           <div class="grid grid-cols-2 gap-8 text-gray-500 sm:gap-12 md:grid-cols-3 lg:grid-cols-4 dark:text-gray-400 text-center">
             <img
               className="flex justify-center items-center"
-              src="https://karirlab-prod-bucket.s3.ap-southeast-1.amazonaws.com/files/privates/1AFbQ0GKhNMlFwXGrpvOSjpWuW6v09eDoXZkjYqr.png"
+              src={ut}
               alt="ut"
             />
             <img
               className="flex justify-center items-center"
-              src="https://www.dpp.co.id/wp-content/uploads/2022/02/PATRIA.png"
+              src={patria}
               alt="patria"
             />
             <img
               className="flex justify-center items-center mt-3"
-              src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/1f1c9a8e7ba44a2adeef5970999a8b00.png"
+              src={triatra}
               alt="triatra"
             />
             <img
               className="flex justify-center items-center"
-              src="https://www.dpp.co.id/wp-content/uploads/2022/02/PMP-300x77.png"
+              src={pmp}
               alt="patria"
             />
             <img
               className="flex justify-center items-center"
-              src="https://www.dpp.co.id/wp-content/uploads/2022/02/PPLI-300x77.png"
+              src={pml}
               alt="patria"
             />
             <img
               className="flex justify-center items-center"
-              src="https://www.dpp.co.id/wp-content/uploads/2022/03/cropped-Logo-pami-Terbaru-1-300x77.png"
+              src={pli}
               alt="patria"
             />
             <img
               className="flex justify-center items-center"
-              src="https://www.dpp.co.id/wp-content/uploads/2022/02/PML.png"
+              src={pmi}
               alt="patria"
             />
             <img
               className="flex justify-center items-center w-52"
-              src="http://202.159.35.85/cdn/d:300/company/logo/20211003/6e8d59e8f3cacefacc4374675fb24b4b0b75618b1633230458.jpg"
+              src={sigma}
               alt="patria"
             />
           </div>

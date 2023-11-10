@@ -29,11 +29,7 @@ const LandingPage = () => {
         {/* GAMBAR  */}
 
         <div class="relative overflow-hidden">
-          <img
-            src={GambarBackground}
-            alt="qwe"
-            class="w-full h-auto"
-          />
+          <img src={GambarBackground} alt="qwe" class="w-full h-auto" />
           {/* <p class="absolute inset-0 flex items-center justify-center">Your text or content here</p> */}
         </div>
 
@@ -455,11 +451,11 @@ const LandingPage = () => {
             <div class="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
               <img
                 class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://karirlab-prod-bucket.s3.ap-southeast-1.amazonaws.com/files/privates/1AFbQ0GKhNMlFwXGrpvOSjpWuW6v09eDoXZkjYqr.png"
-                alt="ut"
+                src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/1f1c9a8e7ba44a2adeef5970999a8b00.png"
+                alt="triatra"
                 width="158"
                 height="48"
-              />
+              /> 
               <img
                 class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
                 src="https://www.dpp.co.id/wp-content/uploads/2022/02/PATRIA.png"
@@ -467,10 +463,11 @@ const LandingPage = () => {
                 width="158"
                 height="48"
               />
+
               <img
                 class="col-span-2 max-h-12 w-full object-contain lg:col-span-1"
-                src="https://images.glints.com/unsafe/glints-dashboard.s3.amazonaws.com/company-logo/1f1c9a8e7ba44a2adeef5970999a8b00.png"
-                alt="triatra"
+                src="https://karirlab-prod-bucket.s3.ap-southeast-1.amazonaws.com/files/privates/1AFbQ0GKhNMlFwXGrpvOSjpWuW6v09eDoXZkjYqr.png"
+                alt="ut"
                 width="158"
                 height="48"
               />

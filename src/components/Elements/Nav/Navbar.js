@@ -2,147 +2,112 @@ import React from "react";
 import { useNavigate } from "react-router-dom";
 import Logo from "../../../assets/logo.png";
 import { useState } from "react";
+import { FiMenu, FiX,FiChevronDown } from "react-icons/fi";
 
 export const Navbar = () => {
   const navigate = useNavigate();
   const [isAboutDropdownOpen, setIsAboutDropdownOpen] = useState(false);
   const [isProductsDropdownOpen, setIsProductsDropdownOpen] = useState(false);
+  const [aboutopen,setAboutOpen] = useState(false);
 
-  const handleAboutMouseEnter = () => {
-    setIsAboutDropdownOpen(true);
-    setIsProductsDropdownOpen(false);
+  const handleAboutEnter = () => {
+    setAboutOpen(!aboutopen);
+  };
+  const handleAboutLeave = () => {
+    setAboutOpen(aboutopen);
   };
 
-  const handleProductsMouseEnter = () => {
-    setIsAboutDropdownOpen(false);
-    setIsProductsDropdownOpen(true);
-  };
-
-  const toggleDropdown = () => {
-    setIsAboutDropdownOpen(!isAboutDropdownOpen);
-  };
-
-  const handleMouseLeave = () => {
-    setIsAboutDropdownOpen(false);
-    setIsProductsDropdownOpen(false);
-  };
+  const [open,setOpen]=useState(false);
 
   return (
     <>
-      <nav className=" fixed w-full top-0 z-40 bg-slate-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700 ">
+      <nav className=" fixed w-full top-0 z-40 bg-slate-50 border-gray-200 dark:bg-gray-900 dark:border-gray-700 shadow-md">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           <a href="/" class="flex items-center">
             <img src={Logo} class="h-16" alt=" Logo" />
           </a>
           <button
-            id="navbar-toggle"
-            data-collapse-toggle="navbar-dropdown"
             type="button"
-            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
-            aria-controls="navbar-dropdown"
-            aria-expanded="false"
-            onClick={toggleDropdown}
+            class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg lg:hidden"
+            onClick={()=>setOpen(!open)}
           >
-            <span class="sr-only">Open main menu</span>
-            <svg class="w-5 h-5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 17 14">
-              <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 1h15M1 7h15M1 13h15" />
-            </svg>
+            <div className="text-2xl">{open?<FiX/>:<FiMenu/>}</div>
           </button>
           <div
             className={`relative w-full ${
-              isAboutDropdownOpen ? "visible" : "hidden"
-            } lg:block md:w-auto flex flex-col font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-slate-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-slate-50`}
+              open ? "visible" : "hidden"
+            }  lg:block flex flex-col font-medium p-4 lg:p-0 mt-4 border-t border-slate-200  bg-slate-50 lg:flex-row lg:w-auto lg:space-x-8 lg:mt-0 md:border-0 md:border-t md:border-slate-200 lg:border-0 md:bg-slate-50`}
           >
-            <div className="group inline-block relative" onMouseEnter={handleAboutMouseEnter} onMouseLeave={handleMouseLeave}>
-              <button
-                onClick={() => navigate("/about")}
-                className="flex items-center justify-between w-full py-2 pl-3 pr-4  text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
+            <div className="group inline-block relative" >
+              
+              <button onMouseEnter={()=>{
+                handleAboutEnter()
+              }} 
+
+              onMouseLeave={()=>{
+                handleAboutLeave()
+              }}
+
+              onClick={()=>{
+                navigate('/about')
+              }}
+                
+                className="flex items-center justify-between w-full py-2 pl-3 pr-4  text-gray-900 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 lg:p-0 md:w-auto"
               >
-                About
-                <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-                </svg>
+                Tentang Kami
+                <FiChevronDown className="ml-2 text-xl font-bold "/>
               </button>
-              {isAboutDropdownOpen && (
-                <div className="absolute font-normal bg-white divide-y divide-gray-100 rounded-md shadow w-44">
-                  {/* <a href="/values" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
-                    Values
+              
+                <div className= {`${aboutopen?"visible":"hidden"} absolute font-normal bg-white divide-y divide-gray-100 rounded-md shadow w-44`}>
+                  <a
+                    href="/milestone"
+                    class="block px-4 py-2 hover:bg-gray-100"
+                  >
+                    Milestone & Award
                   </a>
-                  <a href="/vision" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
-                    Vision & Mission
-                  </a>
-                  <a href="/tagline" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
-                    Tagline
-                  </a> */}
-                  <a href="/awards" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
-                    Milestone & Awards
-                  </a>
-                  <a href="/board" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
+                  <a
+                    href="/board"
+                    class="block px-4 py-2 hover:bg-gray-100"
+                  >
                     Board Of Director
                   </a>
                 </div>
-              )}
             </div>
             <a
               href="/industries"
-              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 lg:p-0 "
             >
-              Our Business  
+              Bisnis Kami 
             </a>
-            <div className="group inline-block relative" onMouseEnter={handleProductsMouseEnter} onMouseLeave={handleMouseLeave}>
-              <button
-                onClick={() => navigate("/product")}
-                className="flex items-center justify-between w-full py-2 pl-3 pr-4  text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto"
-              >
-                Products Support
-                <svg class="w-2.5 h-2.5 ml-2.5" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 10 6">
-                  <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="m1 1 4 4 4-4" />
-                </svg>
-              </button>
-              {isProductsDropdownOpen && (
-                <div className="absolute font-normal bg-white divide-y divide-gray-100 rounded-md shadow w-44">
-                  <a
-                    href="/productscania"
-                    class="block px-4 py-2 hover:bg-gray-100"
-                  >
-                    Scania
-                  </a>
-                  <a href="#" class="block px-4 py-2 hover:bg-gray-100 hover:rounded-b-lg">
-                    Patria
-                  </a>
-                </div>
-              )}
-            </div>
-            
-            {/* <a
-              href="/ournetwork"
-              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+            <a
+              href="/product"
+              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 lg:p-0 "
             >
-              Our Network
-            </a> */}
+              Produk Support
+            </a>
             <a
               href="/career"
-              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 lg:p-0 "
             >
-              Career
+              Karier
             </a>
             <a
               href="/news"
-              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 lg:p-0 "
             >
-              News
+              Berita
             </a>
             <a
               href="programcsr"
-              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 lg:p-0"
             >
               Program CSR
             </a>
             <a
               href="/contact"
-              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent"
+              class="py-2 pl-3 pr-4 text-gray-900 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 lg:p-0"
             >
-              Contact
+              Kontak
             </a>
           </div>
         </div>
